@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 2.4.0">
+  <meta name="generator" content="Hugo 0.49.2" />
+  <meta name="author" content="James Robinson">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="The size spectrum describes the distribution of body sizes within a community, and is widely used among fisheries biologists to track exploitation effects and parameterise theoretical size-based ecosystem models. Most notably, empirical size spectrum estimates have provided insights into community-level changes in overfished ecosystems. In a project led by Dr. Andrew Edwards (Pacific Biological Station, Fisheries and Oceans Canada) and recently published in Methods in Ecology &amp; Evolution, we show that empirical size-spectrum fitting methods are not standardised and many are biased.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://jpwrobinson/github.io/post/size-spectra-methods-blog/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href=//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono>
+  
+
+  <link rel="stylesheet" href="/github.io/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="https://jpwrobinson/github.io/index.xml" type="application/rss+xml" title="James PW Robinson">
+  <link rel="feed" href="https://jpwrobinson/github.io/index.xml" type="application/rss+xml" title="James PW Robinson">
+  
+
+  <link rel="manifest" href="/github.io/site.webmanifest">
+  <link rel="icon" type="image/png" href="/github.io/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/github.io/img/icon-192.png">
+
+  <link rel="canonical" href="https://jpwrobinson/github.io/post/size-spectra-methods-blog/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@jamespwr">
+  <meta property="twitter:creator" content="@jamespwr">
+  
+  <meta property="og:site_name" content="James PW Robinson">
+  <meta property="og:url" content="https://jpwrobinson/github.io/post/size-spectra-methods-blog/">
+  <meta property="og:title" content="Fitting size spectra to empirical data | James PW Robinson">
+  <meta property="og:description" content="The size spectrum describes the distribution of body sizes within a community, and is widely used among fisheries biologists to track exploitation effects and parameterise theoretical size-based ecosystem models. Most notably, empirical size spectrum estimates have provided insights into community-level changes in overfished ecosystems. In a project led by Dr. Andrew Edwards (Pacific Biological Station, Fisheries and Oceans Canada) and recently published in Methods in Ecology &amp; Evolution, we show that empirical size-spectrum fitting methods are not standardised and many are biased.">
+  
+  
+    
+  <meta property="og:image" content="https://jpwrobinson/github.io/img/icon-192.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2016-07-13T00:00:00&#43;01:00">
+  
+  <meta property="article:modified_time" content="2016-07-13T00:00:00&#43;01:00">
+  
+
+  
+
+  
+
+  <title>Fitting size spectra to empirical data | James PW Robinson</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/github.io/">James PW Robinson</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/github.io/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/github.io/#publications_selected">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/github.io/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/github.io/#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/github.io/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Fitting size spectra to empirical data</h1>
+
+  
+
+  
+    
+
+<div class="article-metadata">
+
+  
+  
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="James Robinson">
+  </span>
+  
+
+  <span class="article-date">
+    
+    <meta content="2016-07-13 00:00:00 &#43;0100 BST" itemprop="datePublished">
+    <time datetime="2016-07-13 00:00:00 &#43;0100 BST" itemprop="dateModified">
+      Jul 13, 2016
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="James Robinson">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    2 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Fitting%20size%20spectra%20to%20empirical%20data&amp;url=https%3a%2f%2fjpwrobinson%2fgithub.io%2fpost%2fsize-spectra-methods-blog%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fjpwrobinson%2fgithub.io%2fpost%2fsize-spectra-methods-blog%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fjpwrobinson%2fgithub.io%2fpost%2fsize-spectra-methods-blog%2f&amp;title=Fitting%20size%20spectra%20to%20empirical%20data"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fjpwrobinson%2fgithub.io%2fpost%2fsize-spectra-methods-blog%2f&amp;title=Fitting%20size%20spectra%20to%20empirical%20data"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Fitting%20size%20spectra%20to%20empirical%20data&amp;body=https%3a%2f%2fjpwrobinson%2fgithub.io%2fpost%2fsize-spectra-methods-blog%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      <p>The size spectrum describes the distribution of body sizes within a community, and is widely used among fisheries biologists to track exploitation effects and parameterise theoretical size-based ecosystem models. Most notably, empirical size spectrum estimates have provided insights into community-level changes in overfished ecosystems. In a project led by <a href="http://www.chebucto.ns.ca/~english/" target="_blank">Dr. Andrew Edwards</a> (Pacific Biological Station, Fisheries and Oceans Canada) and recently published in <a href="http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12641/abstract" target="_blank">Methods in Ecology &amp; Evolution</a>, we show that empirical size-spectrum fitting methods are not standardised and many are biased.</p>
+
+<p>Individual body size distributions typically exhibit power law relationships, with an exponent b that quantifies the relative abundances of body sizes. In practice, size spectra have typically been fitted by fitting a linear regression to binned abundance and body size data in log-log space, where the slope of the regression is analagous to the power law exponent. b is negative, reflecting a decrease in abundance as body size increases, and is said to ‘steepen’ (or decrease) when fishing pressure is size-selective and large-bodied fishes are removed from the community. We tested the accuracy of different fitting methods including binned vs. unbinned data and regression vs. power law distribution fitting.</p>
+
+<p>Our results indicate that maximum likelihood estimation of power law distributions gives the most accurate estimates of size spectrum exponents (b estimates). <a href="http://github.com/andrew-edwards/fitting-size-spectra/" target="_blank">We provide code</a> for maximum likelihood estimation of binned and unbinned body size data, and also recommend that size spectra are presented by plotting both a log-log biomass spectrum and an untransformed abundance spectrum that allows visual inspection of every data point (Figure 1).</p>
+
+<p>We hope that fisheries biologists will use these tools to improve their analyses of community size spectra, and that our work has improved the utility of size spectra as indicators of ecological change. The published paper is Open Access and can be downloaded from Methods in Ecology &amp; Evolution.</p>
+
+<p>Figure 1 – suggested plots for biomass size spectrum (a; binned data) and abundance size spectrum (b; raw data). See our paper for details and code for plotting method.</p>
+
+    </div>
+
+    
+
+
+    
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<div class="container">
+  <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2018 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    <script src="/github.io/js/hugo-academic.js"></script>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/github.io/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "Search Results",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    <script src="/github.io/js/search.js"></script>
+    
+
+    
+    
+
+  </body>
+</html>
+
