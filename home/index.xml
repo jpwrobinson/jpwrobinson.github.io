@@ -2,103 +2,103 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on James PW Robinson</title>
-    <link>https://jpwrobinson/github.io/home/</link>
+    <link>http://jpwrobinson/github.io/home/</link>
     <description>Recent content in Homes on James PW Robinson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0100</lastBuildDate>
     
-	<atom:link href="https://jpwrobinson/github.io/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://jpwrobinson/github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://jpwrobinson/github.io/home/hero_carousel/</link>
+      <link>http://jpwrobinson/github.io/home/hero_carousel/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://jpwrobinson/github.io/home/hero_carousel/</guid>
+      <guid>http://jpwrobinson/github.io/home/hero_carousel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Academic</title>
-      <link>https://jpwrobinson/github.io/home/hero/</link>
+      <link>http://jpwrobinson/github.io/home/hero/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://jpwrobinson/github.io/home/hero/</guid>
+      <guid>http://jpwrobinson/github.io/home/hero/</guid>
       <description>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀 Latest release   Star</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://jpwrobinson/github.io/home/about/</link>
+      <link>http://jpwrobinson/github.io/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
       
-      <guid>https://jpwrobinson/github.io/home/about/</guid>
+      <guid>http://jpwrobinson/github.io/home/about/</guid>
       <description>Biography I&amp;rsquo;m a Senior Research Associate at Lancaster Environment Centre. My work aims to understand how climate change impacts coral reefs and small-scale fisheries, with a particular focus on Seychelles. I&amp;rsquo;m a quantitative ecologist, and I&amp;rsquo;m motivated to use statistical models to uncover ecological patterns from large temporal and spatial observational datasets. I&amp;rsquo;m also an advocate for open science approaches to research, and you can find all of my R code, statistical models, and published papers in this website.</description>
     </item>
     
     <item>
       <title>Skills</title>
-      <link>https://jpwrobinson/github.io/home/skills/</link>
+      <link>http://jpwrobinson/github.io/home/skills/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://jpwrobinson/github.io/home/skills/</guid>
+      <guid>http://jpwrobinson/github.io/home/skills/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Experience</title>
-      <link>https://jpwrobinson/github.io/home/experience/</link>
+      <link>http://jpwrobinson/github.io/home/experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jpwrobinson/github.io/home/experience/</guid>
+      <guid>http://jpwrobinson/github.io/home/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Publications</title>
-      <link>https://jpwrobinson/github.io/home/publications/</link>
+      <link>http://jpwrobinson/github.io/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
       
-      <guid>https://jpwrobinson/github.io/home/publications/</guid>
+      <guid>http://jpwrobinson/github.io/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Posts</title>
-      <link>https://jpwrobinson/github.io/home/posts/</link>
+      <link>http://jpwrobinson/github.io/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
       
-      <guid>https://jpwrobinson/github.io/home/posts/</guid>
+      <guid>http://jpwrobinson/github.io/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tags</title>
-      <link>https://jpwrobinson/github.io/home/tags/</link>
+      <link>http://jpwrobinson/github.io/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://jpwrobinson/github.io/home/tags/</guid>
+      <guid>http://jpwrobinson/github.io/home/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Search</title>
-      <link>https://jpwrobinson/github.io/home/search/</link>
+      <link>http://jpwrobinson/github.io/home/search/</link>
       <pubDate>Mon, 23 Jul 2018 00:00:00 +0100</pubDate>
       
-      <guid>https://jpwrobinson/github.io/home/search/</guid>
+      <guid>http://jpwrobinson/github.io/home/search/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://jpwrobinson/github.io/home/contact/</link>
+      <link>http://jpwrobinson/github.io/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
       
-      <guid>https://jpwrobinson/github.io/home/contact/</guid>
+      <guid>http://jpwrobinson/github.io/home/contact/</guid>
       <description></description>
     </item>
     
