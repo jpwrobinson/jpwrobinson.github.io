@@ -86,7 +86,7 @@ breeding success</title>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
       
       <guid>http://jpwrobinson/github.io/publication/robinson2013-ut/</guid>
-      <description></description>
+      <description>git submodule add -f -b master https://github.com/jpwrobinson/jpwrobinson.github.io.git public</description>
     </item>
     
   </channel>
