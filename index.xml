@@ -20,7 +20,7 @@ baselines</title>
       <guid>https://jpwrobinson.github.io/publication/robinson2018-tf/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Our ability to understand natural constraints on coral reef benthic communities requires quantitative assessment of the relative strengths of abiotic and biotic processes across large spatial scales. Here, we combine underwater images, visual censuses and remote sensing data for 1,566 sites across 34 islands spanning the central- western Pacific Ocean, to empirically assess the relative roles of abiotic and grazing processes in determining the prevalence of calcifying organisms and fleshy algae on coral reefs. We used regression trees to identify the major predictors of benthic composition and to test whether anthropogenic stress at inhabited islands decouples natural relationships. We show that sea surface temperature, wave energy, oceanic productivity and aragonite saturation strongly influence benthic community composition; over- looking these factors may bias expectations of calcified reef states. Maintenance of grazing biomass above a relatively low threshold (~ 10–20 kg ha-1) may also prevent transitions to algal-dominated states, providing a tangible management target for rebuilding overexploited herbivore populations. Biophysical relationships did not decouple at inhabited islands, indicating that abiotic influences remain important macroscale processes, even at chronically dis- turbed reefs. However, spatial autocorrelation among inhabited reefs was substantial and exceeded abiotic and grazing influences, suggesting that natural constraints on reef benthos were superseded by unmeasured anthro- pogenic impacts. Evidence of strong abiotic influences on reef benthic communities underscores their importance in specifying quantitative targets for coral reef management and restoration that are realistic within the context of local conditions.&lt;/p&gt;
+&lt;p&gt;Our ability to understand natural constraints on coral reef benthic communities requires quantitative assessment of the relative strengths of abiotic and biotic processes across large spatial scales. Here, we combine underwater images, visual censuses and remote sensing data for 1,566 sites across 34 islands spanning the central- western Pacific Ocean, to empirically assess the relative roles of abiotic and grazing processes in determining the prevalence of calcifying organisms and fleshy algae on coral reefs. We used regression trees to identify the major predictors of benthic composition and to test whether anthropogenic stress at inhabited islands decouples natural relationships. We show that sea surface temperature, wave energy, oceanic productivity and aragonite saturation strongly influence benthic community composition; over- looking these factors may bias expectations of calcified reef states. Maintenance of grazing biomass above a relatively low threshold (~ 10–20 kg ha-1) may also prevent transitions to algal-dominated states, providing a tangible management target for rebuilding overexploited herbivore populations. Biophysical relationships did not decouple at inhabited islands, indicating that abiotic influences remain important macroscale processes, even at chronically dis-turbed reefs. However, spatial autocorrelation among inhabited reefs was substantial and exceeded abiotic and grazing influences, suggesting that natural constraints on reef benthos were superseded by unmeasured anthropogenic impacts. Evidence of strong abiotic influences on reef benthic communities underscores their importance in specifying quantitative targets for coral reef management and restoration that are realistic within the context of local conditions.&lt;/p&gt;
 </description>
     </item>
     
@@ -70,10 +70,10 @@ baselines</title>
     
     <item>
       <title>Fishing degrades reef fish size structure</title>
-      <link>https://jpwrobinson.github.io/post/size-structure-blog/</link>
+      <link>https://jpwrobinson.github.io/post/size-crep/</link>
       <pubDate>Wed, 07 Sep 2016 00:00:00 +0100</pubDate>
       
-      <guid>https://jpwrobinson.github.io/post/size-structure-blog/</guid>
+      <guid>https://jpwrobinson.github.io/post/size-crep/</guid>
       <description>&lt;p&gt;From spears to gillnets and artisanal fishers to commercial boats, coral reef ecosystems are exploited across a range of fishing pressures and with diverse gear types. Reefs are valuable food resources for tropical coastal communities and yet our understanding of fishing impacts on reefs is often founded on studies that measure how much fish biomass is depleted in fished areas. In order to understand broader impacts on aspects of community structure we quantified reef fish size structure - the fish size distribution, or relative abundance of different body sizes - at major Pacific island groups that span gradients in human presence and environmental influences.&lt;/p&gt;
 
 &lt;p&gt;Using data collected by the Coral Reef Ecosystem Programme (NOAA), we measured the size spectrum, the large fish indicator, and total fish biomass at 38 US-affiliated islands and atolls in the Pacific Ocean, ranging from uninhabited pristine reefs (such as Palmyra atoll) to large population centres (such as Honolulu on Oahu).&lt;/p&gt;
@@ -94,10 +94,10 @@ baselines</title>
     
     <item>
       <title>Fitting size spectra to empirical data</title>
-      <link>https://jpwrobinson.github.io/post/size-spectra-methods-blog/</link>
+      <link>https://jpwrobinson.github.io/post/size-methods/</link>
       <pubDate>Wed, 13 Jul 2016 00:00:00 +0100</pubDate>
       
-      <guid>https://jpwrobinson.github.io/post/size-spectra-methods-blog/</guid>
+      <guid>https://jpwrobinson.github.io/post/size-methods/</guid>
       <description>&lt;p&gt;The size spectrum describes the distribution of body sizes within a community, and is widely used among fisheries biologists to track exploitation effects and parameterise theoretical size-based ecosystem models. Most notably, empirical size spectrum estimates have provided insights into community-level changes in overfished ecosystems. In a project led by &lt;a href=&#34;http://www.chebucto.ns.ca/~english/&#34; target=&#34;_blank&#34;&gt;Dr. Andrew Edwards&lt;/a&gt; (Pacific Biological Station, Fisheries and Oceans Canada) and recently published in &lt;a href=&#34;http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12641/abstract&#34; target=&#34;_blank&#34;&gt;Methods in Ecology &amp;amp; Evolution&lt;/a&gt;, we show that empirical size-spectrum fitting methods are not standardised and many are biased.&lt;/p&gt;
 
 &lt;p&gt;Individual body size distributions typically exhibit power law relationships, with an exponent b that quantifies the relative abundances of body sizes. In practice, size spectra have typically been fitted by fitting a linear regression to binned abundance and body size data in log-log space, where the slope of the regression is analagous to the power law exponent. b is negative, reflecting a decrease in abundance as body size increases, and is said to ‘steepen’ (or decrease) when fishing pressure is size-selective and large-bodied fishes are removed from the community. We tested the accuracy of different fitting methods including binned vs. unbinned data and regression vs. power law distribution fitting.&lt;/p&gt;
@@ -112,10 +112,10 @@ baselines</title>
     
     <item>
       <title>Predator-prey mass ratios</title>
-      <link>https://jpwrobinson.github.io/post/ppmr-blog/</link>
+      <link>https://jpwrobinson.github.io/post/ppmr/</link>
       <pubDate>Fri, 01 Jul 2016 00:00:00 +0100</pubDate>
       
-      <guid>https://jpwrobinson.github.io/post/ppmr-blog/</guid>
+      <guid>https://jpwrobinson.github.io/post/ppmr/</guid>
       <description>&lt;p&gt;Predator-prey mass ratios (PPMRs) reflect the strength of interactions between predators and prey, and can be used to examine community size structure. PPMRs can be estimated using diet data (e.g. Barnes et al. 2010, Ecology) or with stable isotope methods in which an individual&amp;rsquo;s trophic position is inferred by measuring the fractionation of nitrogen 15-N relative to a baseline value.&lt;/p&gt;
 
 &lt;p&gt;Although standard &amp;lsquo;additive&amp;rsquo; approaches assume that 15-N fractionates by 3.4‰, Hussey et al. (2014, Ecol. Lett.) showed that fractionation values are dependent on tissue 15-N and so increase with trophic level.&lt;/p&gt;
@@ -140,10 +140,10 @@ baselines</title>
     
     <item>
       <title>Size structure of coral reef fish communities</title>
-      <link>https://jpwrobinson.github.io/post/size-kiritimati-blog/</link>
+      <link>https://jpwrobinson.github.io/post/size-ki/</link>
       <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://jpwrobinson.github.io/post/size-kiritimati-blog/</guid>
+      <guid>https://jpwrobinson.github.io/post/size-ki/</guid>
       <description>&lt;p&gt;Despite a strong focus on understanding patterns in the diversity, behaviour and functional roles of fish on coral reefs, we know far less about how fish communities are structured. In most aquatic communities, gape limitation and ontogenetic niche shifts produce communities that are size structured, where predators are larger than their prey. Our expectation is that reef fish communities should also be size structured, though this has not been formally tested. In a paper published in a special body size themed issue of the Canadian Journal of Fisheries &amp;amp; Aquatic Sciences, myself and Dr. Julia Baum examined the case for size structuring in the coral reef fish community at Kiritimati Atoll.&lt;/p&gt;
 
 &lt;p&gt;Size-structured communities are characterised by two major patterns. First, there is a negative relationship between abundance and body size (or size spectrum), due to the inefficiency of energy transfer between trophic levels that constrains the  abundance of predators to be lower that that of their prey. Second, trophic position will increase with body size, reflecting the tight correlation between an individual&amp;rsquo;s body size and its position in the food web.&lt;/p&gt;
