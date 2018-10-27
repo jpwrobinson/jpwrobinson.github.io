@@ -11,6 +11,20 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Environmental conditions and herbivore biomass determine coral
+reef benthic community composition: implications for quantitative
+baselines</title>
+      <link>https://jpwrobinson.github.io/publication/robinson2018-tf/</link>
+      <pubDate>Tue, 25 Sep 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://jpwrobinson.github.io/publication/robinson2018-tf/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Our ability to understand natural constraints on coral reef benthic communities requires quantitative assessment of the relative strengths of abiotic and biotic processes across large spatial scales. Here, we combine underwater images, visual censuses and remote sensing data for 1,566 sites across 34 islands spanning the central- western Pacific Ocean, to empirically assess the relative roles of abiotic and grazing processes in determining the prevalence of calcifying organisms and fleshy algae on coral reefs. We used regression trees to identify the major predictors of benthic composition and to test whether anthropogenic stress at inhabited islands decouples natural relationships. We show that sea surface temperature, wave energy, oceanic productivity and aragonite saturation strongly influence benthic community composition; over- looking these factors may bias expectations of calcified reef states. Maintenance of grazing biomass above a relatively low threshold (~ 10–20 kg ha-1) may also prevent transitions to algal-dominated states, providing a tangible management target for rebuilding overexploited herbivore populations. Biophysical relationships did not decouple at inhabited islands, indicating that abiotic influences remain important macroscale processes, even at chronically dis- turbed reefs. However, spatial autocorrelation among inhabited reefs was substantial and exceeded abiotic and grazing influences, suggesting that natural constraints on reef benthos were superseded by unmeasured anthro- pogenic impacts. Evidence of strong abiotic influences on reef benthic communities underscores their importance in specifying quantitative targets for coral reef management and restoration that are realistic within the context of local conditions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Enhancing Climate Change Research With Open Science</title>
       <link>https://jpwrobinson.github.io/publication/tai2018-dd/</link>
       <pubDate>Sat, 15 Sep 2018 00:00:00 +0100</pubDate>
@@ -23,23 +37,15 @@
     </item>
     
     <item>
-      <title>Environmental conditions and herbivore biomass determine coral
-reef benthic community composition: implications for quantitative
-baselines</title>
-      <link>https://jpwrobinson.github.io/publication/robinson2018-tf/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://jpwrobinson.github.io/publication/robinson2018-tf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Fishing degrades size structure of coral reef fish communities</title>
       <link>https://jpwrobinson.github.io/publication/robinson2017-xm/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jpwrobinson.github.io/publication/robinson2017-xm/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Fishing pressure on coral reef ecosystems has been frequently linked to reductions of large fishes and reef fish biomass. Associated impacts on overall community structure are, however, less clear. In size-structured aquatic ecosystems, fishing impacts are commonly quantified using size spectra, which describe the distribution of individual body sizes within a community. We examined the size spectra and biomass of coral reef fish communities at 38 US- affiliated Pacific islands that ranged in human presence from near pristine to human population centers. Size spectra ‘steepened’ steadily with increasing human population and proximity to market due to a reduction in the relative biomass of large fishes and an increase in the dominance of small fishes. Reef fish biomass was substantially lower on inhabited islands than uninhabited ones, even at inhabited islands with the lowest levels of human presence. We found that on populated islands size spectra exponents decreased (analogous to size spectra steepening) linearly with declining biomass, whereas on uninhabited islands there was no relationship. Size spectra were steeper in regions of low sea surface temperature but were insensitive to variation in other environmental and geomorphic covariates. In contrast, reef fish biomass was highly sensitive to oceanographic conditions, being influenced by both oceanic productivity and sea surface temperature. Our results suggest that community size structure may be a more robust indicator than fish biomass to increasing human presence and that size spectra are reliable indicators of exploitation impacts across regions of different fish community compositions, environmental drivers, and fisheries types. Size- based approaches that link directly to functional properties of fish communities, and are relatively insensitive to abiotic variation across biogeographic regions, offer great potential for developing our understanding of fishing impacts in coral reef ecosystems.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -48,7 +54,18 @@ baselines</title>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jpwrobinson.github.io/publication/edwards2017-wp/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;The size spectrum of an ecological community characterizes how a property, such as abundance or biomass, varies with body size. Size spectra are often used as ecosystem indicators of marine systems. They have been fitted to data from various sources, including groundfish trawl surveys, visual surveys of fish in kelp forests and coral reefs, sediment samples of benthic invertebrates and satellite remote sensing of chlorophyll.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Over the past decades, several methods have been used to fit size spectra to data. We document eight such methods, demonstrating their commonalities and differences. Seven methods use linear regression (of which six require binning of data), while the eighth uses maximum likelihood estimation. We test the accuracy of the meth- ods on simulated data.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;We demonstrate that estimated size-spectrum slopes are not always comparable between the seven regression- based methods because such methods are not estimating the same parameter. We find that four of the eight tested methods can sometimes give reasonably accurate estimates of the exponent of the individual size distribution (which is related to the slope of the size spectrum). However, sensitivity analyses find that maximum likelihood estimation is the only method that is consistently accurate, and the only one that yields reliable confidence inter- vals for the exponent.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;We therefore recommend the use of maximum likelihood estimation when fitting size spectra. To facilitate this, we provide documented R code for fitting and plotting results. This should provide consistency in future studies and improve the quality of any resulting advice to ecosystem managers. In particular, the calculation of reliable confidence intervals will allow proper consideration of uncertainty when making management decisions.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
     </item>
     
     <item>
@@ -115,7 +132,10 @@ baselines</title>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://jpwrobinson.github.io/publication/robinson2016-wg/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Relationships between abundance – body size and trophic position – body size can reveal size structuring in food webs and test ecological theory. Although there is considerable evidence of size structuring in temperate aquatic food webs, little is known about the structure of tropical coral reef food webs. Here, we use underwater visual-census data and nitrogen stable isotope analysis to test if coral reef fish communities (i) are size structured and (ii) follow metabolic scaling rules. After examining individuals from over 160 species spanning four orders of magnitude in body size, we show that abundance scaled negatively with body size and, as predicted, individuals sharing energy through predation (carnivorous fishes) scaled more steeply than those individuals sharing a common energy source (herbivorous fishes). Estimated size spectra were, however, shallower than predicted by metabolic theory. Trophic position scaled positively with body size across species and across individuals, providing novel evidence of size structuring in a diverse tropical food web. Size-based approaches hold great promise for integrating the complexities of food webs into simple quantitative measures, thus providing new insights into the structure and function of aquatic ecosystems.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -147,7 +167,10 @@ sources of errors</title>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
       <guid>https://jpwrobinson.github.io/publication/hertz2014-pw/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In aquatic systems, the ratio of pre- dator mass to prey mass (PPMR) is an important constraint on food web structure, and has been correlated with environmental stability. One com- mon approach of estimating PPMR uses nitrogen stable isotopes (δ15N) as an indicator of trophic position, under the assumption that the discrimi- nation between diet and tissue is constant with increasing diet δ15N (an additive approach). How- ever, recent studies have shown that this assump- tion may not be valid and that there is a negative trend between the δ15N of the diet and the dis- crimination value (a scaled approach). Here, we estimated PPMR for a simulated food web using both the traditional additive approach and the improved scaled approach, and then tested our predictions with isotope samples from a North Sea food web. Our simulations show that the additive approach yields incorrect estimates of PPMR, and these biases are reflected in North Sea PPMR esti- mates. The extent of the bias is dependent on the baseline δ15N and trophic level sampled, with the greatest differences for samples with low baseline δ15N sampled at lower trophic levels. The scaled approach allows for the comparison of PPMR across varying δ15N baselines and trophic levels, and will refine estimates of PPMR.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -157,7 +180,10 @@ conservation</title>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
       <guid>https://jpwrobinson.github.io/publication/robinson2014-ow/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Biodiversity hotspots have been used extensively in setting conservation priorities for marine ecosystems. A recent Nature publication claims to have uncovered new latitudinal gradients in the evenness of reef communities and new reef hotspots based on functional diversity. Simulation models show that the purported evenness gradient is a mathematical inevitability of differences in species richness and detectability between vastly different marine ecosystems, namely ‘reefs’ in tropical, temperate, and polar regions. Constraints on evenness, along with disparity amongst communities in possible functional traits, cast doubt on the utility of global functional diversity comparisons for management of marine systems.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -167,7 +193,10 @@ breeding success</title>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
       
       <guid>https://jpwrobinson.github.io/publication/robinson2013-ut/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Environmental variability can destabilize communities by causing correlated interspecific fluctuations that weaken the portfolio effect, yet evidence of such a mechanism is rare in natural systems. Here, we ask whether the population dynamics of similar sympatric species of a seabird breeding community are syn- chronized, and if these species have similar exceptional responses to environ- mental variation. We used a 24-year time series of the breeding success and population growth rate of a marine top predator species group to assess the degree of synchrony between species demography. We then developed a novel method to examine the species group – all species combined – response to environmental variability, in particular, whether multiple species experience similar, pronounced fluctuations in their demography. Multiple species were positively correlated in breeding success and growth rate. Evidence of “excep- tional” years was found, where the species group experienced pronounced fluc- tuations in their demography. The synchronous response of the species group was negatively correlated with winter sea surface temperature of the preceding year for both growth rate and breeding success. We present evidence for syn- chronous, exceptional responses of a species group that are driven by environ- mental variation. Such species covariation destabilizes communities by reducing the portfolio effect, and such exceptional responses may increase the risk of a state change in this community. Our understanding of the future responses to environmental change requires an increased focus on the short-term fluctua- tions in demography that are driven by extreme environmental variability.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
