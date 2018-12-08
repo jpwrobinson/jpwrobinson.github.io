@@ -7,27 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://jpwrobinson.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title></title>
-      <link>https://jpwrobinson.github.io/home/hero_carousel/</link>
-      <pubDate>Sun, 15 Oct 2017 00:00:00 +0100</pubDate>
-      
-      <guid>https://jpwrobinson.github.io/home/hero_carousel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
+      <title>Latest research</title>
       <link>https://jpwrobinson.github.io/home/hero/</link>
-      <pubDate>Sun, 15 Oct 2017 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jpwrobinson.github.io/home/hero/</guid>
-      <description></description>
+      <description>How mass coral bleaching impacted coral reef fisheries: a 23-year study of reef fish and fishery catches in Seychelles</description>
     </item>
     
     <item>
@@ -37,7 +28,16 @@
       
       <guid>https://jpwrobinson.github.io/home/about/</guid>
       <description>I&amp;rsquo;m a Senior Research Associate at Lancaster Environment Centre in the UK. My work is focused on understanding climate change impacts on coral reefs and small-scale fisheries. I am currently working in the Indian Ocean, using underwater datasets and fisheries surveys to examine the responses of Seychelles&amp;rsquo; reefs and fisheries to mass coral bleaching events.
-As a macroecologist, I&amp;rsquo;ve been fortunate to work with lots of marine datasets from across the world - underwater scuba surveys, fisher&amp;rsquo;s catches, satellite observations.</description>
+As a macroecologist, I&amp;rsquo;ve been fortunate to work with lots of marine datasets from across the world - scuba surveys, fishery catches, satellite observations.</description>
+    </item>
+    
+    <item>
+      <title>Latest research</title>
+      <link>https://jpwrobinson.github.io/home/hero_carousel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jpwrobinson.github.io/home/hero_carousel/</guid>
+      <description></description>
     </item>
     
     <item>
