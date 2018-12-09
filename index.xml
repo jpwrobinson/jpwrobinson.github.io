@@ -11,6 +11,68 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>What happens to fisheries when coral reefs bleach?</title>
+      <link>https://jpwrobinson.github.io/post/sey-nee/</link>
+      <pubDate>Sun, 09 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jpwrobinson.github.io/post/sey-nee/</guid>
+      <description>&lt;p&gt;&lt;em&gt;This is my &lt;a href=&#34;https://natureecoevocommunity.nature.com/channels/521-behind-the-paper/posts/40032-what-happens-to-fisheries-when-coral-reefs-bleach&#34; target=&#34;_blank&#34;&gt;Behind the Paper&lt;/a&gt; blog posted on Nature Ecology &amp;amp; Evolution&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How long-term datasets and an international collaboration uncovered climate impacts&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A marine heatwave that turned coral reefs into seaweed fields has made reef fisheries less predictable and more productive, impacting small-scale fishers over 20 years later. &lt;a href=&#34;https://www.nature.com/articles/s41559-018-0715-z&#34; target=&#34;_blank&#34;&gt;In our new paper&lt;/a&gt;, we document how a mass coral bleaching changed the composition of fish communities, and how this led an increase in the amount of fish caught by artisanal fishers.&lt;/p&gt;
+
+&lt;p&gt;Our research was the result of a collaboration between nine ecologists and fisheries scientists working across three countries for over 20 years. I want to explain why teamwork and sharing monitoring data were critical to the success of our study.&lt;/p&gt;
+
+&lt;p&gt;When coral reefs are exposed to heat stress and corals bleach, complex and diverse underwater seascapes can turn into flat rubble habitats that are easily overgrown with seaweeds. Coral reefs also provide food and employment for billions of people - by reducing fish habitat, bleaching is expected to lower fisheries&amp;rsquo; productivity and so impact food security in the tropics. But fisheries landing data do not exist for most reefs, meaning we have very little empirical evidence of how climate change will affect tropical food security.&lt;/p&gt;
+
+&lt;p&gt;The link between coral bleaching and reef fisheries is complex. Corals can recover, and fish can be slow to respond to habitat changes. The seaweeds that replace corals, though providing a less complex habitat, can be highly productive and support several species of fish important to artisanal fishers.&lt;/p&gt;
+
+&lt;p&gt;We work in Seychelles, an island group in the Indian Ocean where, in 1998, a mass bleaching event caused &amp;gt;90% of corals in the inner island group to die. Since 1994, our team have collaborated with Seychelles Fishing Authority (&lt;a href=&#34;http://www.sfa.sc/&#34; target=&#34;_blank&#34;&gt;SFA&lt;/a&gt;) and other organisations to collect an underwater time-series that has been &lt;a href=&#34;https://www.nature.com/articles/nature14140&#34; target=&#34;_blank&#34;&gt;highly influential for understanding climate impacts on coral reefs&lt;/a&gt;. Seychelles is also a nation of fishers, and SFA have collected data on small-scale catches from coral reefs for over 25 years.&lt;/p&gt;
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;image1.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Reef fishery catch survey by technicians with Seychelles Fishing Authority. Surveys record the weight and identity of species caught by small-scale trap fishermen.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;The datasets are exceptional: from 1994 to 2016, SFA spent almost 6,000 days talking to fishermen to catalogue over 40,000 catches, while scuba divers spent 1,000&amp;rsquo;s of hours underwater counting over 60,000 reef fish. These data were a unique opportunity to study long-term climate impacts, and all that was left was interpretation: we turned noisy information into ecological patterns with &lt;a href=&#34;https://github.com/jpwrobinson/prod-instability&#34; target=&#34;_blank&#34;&gt;R code and statistical models&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We found that catches increased or were stable in the 20 years following bleaching, which coincided with higher numbers of herbivores on the reef. However, overgrowth by seaweeds at some reefs led to greater spatial variation in habitat types and, as fish species started to associate with either seaweed or coral habitats, the variability in catch sizes also increased. Our findings suggest that bleached reefs can still provide food, but their fisheries are less predictable, and may become dominated by seaweed-feeding rabbitfishes.&lt;/p&gt;
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;image2.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;The 1998 bleaching event caused &amp;gt;90% coral mortality and led to habitat collapse. Over the next 20 years, reefs either recovered branching coral structure or underwent a regime shift to macroalgal states.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;This work was only possible because our collaboration allowed us to combine fishery-dependent (catches) with fishery-independent (underwater) information spanning over 20 years. By drawing on the expertise of ecologists, statisticians, and fisheries scientists, we were able to present several lines of evidence that linked complex ecosystem changes to fishers&amp;rsquo; catches.&lt;/p&gt;
+
+&lt;p&gt;Coral reefs will continue to change as the planet warms - such collaborative and interdisciplinary research will be critical if we are to detect and adapt to future climate impacts.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Productive instability of coral reef fisheries after climate-driven regime shifts</title>
       <link>https://jpwrobinson.github.io/publication/robinson2018-qs/</link>
       <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
@@ -114,7 +176,21 @@ baselines</title>
 
 &lt;p&gt;Our results revealed that reef fish community size structure was degraded (or &amp;lsquo;steepened&amp;rsquo;) as human presence increased (Figure 1), consistent with a depletion of large-bodied fishes and a gradual shift to a communities that are dominated by small fishes. Although reef fish biomass was also depleted at high levels of human presence, all fished islands supported low biomass levels (~ 500 kg per hectare) irrespective of fishing pressure. Light size-selective fishing had a disproportionate impact on fish biomass but caused gradual shifts in size structure, and size spectra were also generally more robust to environmental variation than was fish biomass.&lt;/p&gt;
 
-&lt;p&gt;[insert fig] Figure 1 - Change in size spectrum exponent and reef fish biomass along proximity to market (a, c) and human population density (b, d)&lt;/p&gt;
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;figure1.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h4&gt;Change in size spectrum exponent and reef fish biomass along proximity to market (a, c) and human population density (b, d)&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
 
 &lt;p&gt;By shifting to greater dominance of small-bodied fishes, size-selective fishing produces fish communities that have faster biomass turnover times, greater vulnerability to environmental change, and depleted numbers of functionally important large-bodied individuals, such as the large grazing fish that control algal cover and large predatory fish that link pelagic food webs with the reef benthos. Size-selective exploitation has a consistent impact across marine ecosystems: the steepening spectra we describe here have also been widely documented in temperate fisheries . Such size-based indicators are robust and meaningful indicators of fishing pressure, and may be particularly effective for reef fisheries that often lack meaningful catch and effort data.&lt;/p&gt;
 
@@ -136,7 +212,21 @@ baselines</title>
 
 &lt;p&gt;We hope that fisheries biologists will use these tools to improve their analyses of community size spectra, and that our work has improved the utility of size spectra as indicators of ecological change. The published paper is Open Access and can be downloaded from Methods in Ecology &amp;amp; Evolution.&lt;/p&gt;
 
-&lt;p&gt;Figure 1 – suggested plots for biomass size spectrum (a; binned data) and abundance size spectrum (b; raw data). See our paper for details and code for plotting method.&lt;/p&gt;
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;fig1.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h4&gt;Suggested plots for biomass size spectrum (a; binned data) and abundance size spectrum (b; raw data).&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
 </description>
     </item>
     
@@ -150,7 +240,21 @@ baselines</title>
 
 &lt;p&gt;Although standard &amp;lsquo;additive&amp;rsquo; approaches assume that 15-N fractionates by 3.4‰, Hussey et al. (2014, Ecol. Lett.) showed that fractionation values are dependent on tissue 15-N and so increase with trophic level.&lt;/p&gt;
 
-&lt;p&gt;Figure 1 - trophic position ~ body mass relationship produced using scaled (red) and additive (black) fractionation methods&lt;/p&gt;
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;figure1.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h4&gt;Trophic position ~ body mass relationship produced using scaled (red) and additive (black) fractionation methods&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
 
 &lt;p&gt;In a paper led jointly by Dr. Eric Hertz (Simon Fraser University) and myself, we applied Hussey et al.&amp;rsquo;s (2014) scaled trophic fractionation model to simulated data and North Sea stable isotope data. Our results indicated that the additive stable isotope approach produces incorrect PPMR estimates, and that the extent of the bias is dependent on the baseline 15-N and the trophic level sampled. For those wishing to correctly calculate PPMR from stable isotope data, &lt;a href=&#34;http://github.com/baumlab/ppmr-isotopes&#34; target=&#34;_blank&#34;&gt;here&amp;rsquo;s the code&lt;/a&gt; that applies the Hussey et al. (2014) scaled trophic fractionation model to directly estimate PPMR.&lt;/p&gt;
 </description>
@@ -184,13 +288,41 @@ baselines</title>
 
 &lt;p&gt;We examined the community structure at Kiritimati (Christmas) Island, the world&amp;rsquo;s largest atoll. Using underwater visual census data and stable isotope analysis of collected fish specimens, we found strong evidence for size structuring in the reef fish community where 1) size spectrum slope was negative and 2) trophic position increased with body mass, both across species (Figure 1a, 1b) and across individuals irrespective of species (Figure 1c, 1d). These relationships improved when we considered herbivorous and carnivorous fish independently (Figure 1b, 1d).&lt;/p&gt;
 
-&lt;p&gt;[insert fig] Figure 1 - trophic position ~ body mass relationships at Kiritimati Atoll&lt;/p&gt;
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;fig1.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h4&gt;Trophic position ~ body mass relationships at Kiritimati Atoll&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
 
 &lt;p&gt;In a direct test of metabolic theory, we also examined how abundance ~ body size relationships changed depending on how energy is used within subsets of the community. Metabolic theory predicts that individuals competing for energy through predation (i.e. across multiple trophic levels) will have steeper size spectra than individuals sharing a common energy source (i.e. within a single trophic level), simply due to the inefficiency of energy transfer between trophic levels. On Kiritimati, we examined the size spectrum of carnivores (piscivores, invertivores, planktivores, corallivores) and herbivores (herbivores and detritivores) within the fish community. As predicted, the size spectrum of our carnivore community was steeper than the size spectrum of our herbivore community (Figure 2). However, we our size spectrum slopes were generally shallower than those predicted by metabolic theory, which was likely a result of our inability to sample all individuals that contributed to energy flux within the reef food web (e.g. invertebrates and very small fishes).&lt;/p&gt;
 
 &lt;p&gt;We detected differences in community structure within different trophic groups, indicating that is is important to consider how energy is utilised by different compartments of the food web before attempting to understand patterns in community structure.&lt;/p&gt;
 
-&lt;p&gt;[insert fig] Figure 2 - size spectra of carnivores and herbivores on Kiritimati Atoll&lt;/p&gt;
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;fig2.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h4&gt;Size spectra of carnivores and herbivores on Kiritimati Atoll&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
 </description>
     </item>
     
