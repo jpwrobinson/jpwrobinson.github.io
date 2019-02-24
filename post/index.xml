@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0400</lastBuildDate>
     
 	<atom:link href="https://jpwrobinson.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>What happens to fisheries when coral reefs bleach?</title>
       <link>https://jpwrobinson.github.io/post/sey-nee/</link>
-      <pubDate>Sun, 09 Dec 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 09 Dec 2018 00:00:00 +0400</pubDate>
       
       <guid>https://jpwrobinson.github.io/post/sey-nee/</guid>
       <description>This is my Behind the Paper blog posted on Nature Ecology &amp;amp; Evolution
@@ -26,7 +26,7 @@ A marine heatwave that turned coral reefs into seaweed fields has made reef fish
     <item>
       <title>Fishing degrades reef fish size structure</title>
       <link>https://jpwrobinson.github.io/post/size-crep/</link>
-      <pubDate>Wed, 07 Sep 2016 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 07 Sep 2016 00:00:00 +0400</pubDate>
       
       <guid>https://jpwrobinson.github.io/post/size-crep/</guid>
       <description>From spears to gillnets and artisanal fishers to commercial boats, coral reef ecosystems are exploited across a range of fishing pressures and with diverse gear types. Reefs are valuable food resources for tropical coastal communities and yet our understanding of fishing impacts on reefs is often founded on studies that measure how much fish biomass is depleted in fished areas. In order to understand broader impacts on aspects of community structure we quantified reef fish size structure - the fish size distribution, or relative abundance of different body sizes - at major Pacific island groups that span gradients in human presence and environmental influences.</description>
@@ -35,7 +35,7 @@ A marine heatwave that turned coral reefs into seaweed fields has made reef fish
     <item>
       <title>Fitting size spectra to empirical data</title>
       <link>https://jpwrobinson.github.io/post/size-methods/</link>
-      <pubDate>Wed, 13 Jul 2016 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 13 Jul 2016 00:00:00 +0400</pubDate>
       
       <guid>https://jpwrobinson.github.io/post/size-methods/</guid>
       <description>The size spectrum describes the distribution of body sizes within a community, and is widely used among fisheries biologists to track exploitation effects and parameterise theoretical size-based ecosystem models. Most notably, empirical size spectrum estimates have provided insights into community-level changes in overfished ecosystems. In a project led by Dr. Andrew Edwards (Pacific Biological Station, Fisheries and Oceans Canada) and recently published in Methods in Ecology &amp;amp; Evolution, we show that empirical size-spectrum fitting methods are not standardised and many are biased.</description>
@@ -44,7 +44,7 @@ A marine heatwave that turned coral reefs into seaweed fields has made reef fish
     <item>
       <title>Predator-prey mass ratios</title>
       <link>https://jpwrobinson.github.io/post/ppmr/</link>
-      <pubDate>Fri, 01 Jul 2016 00:00:00 +0100</pubDate>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 +0400</pubDate>
       
       <guid>https://jpwrobinson.github.io/post/ppmr/</guid>
       <description>Predator-prey mass ratios (PPMRs) reflect the strength of interactions between predators and prey, and can be used to examine community size structure. PPMRs can be estimated using diet data (e.g. Barnes et al. 2010, Ecology) or with stable isotope methods in which an individual&amp;rsquo;s trophic position is inferred by measuring the fractionation of nitrogen 15-N relative to a baseline value.
@@ -54,7 +54,7 @@ Although standard &amp;lsquo;additive&amp;rsquo; approaches assume that 15-N fra
     <item>
       <title>Size structure of coral reef fish communities</title>
       <link>https://jpwrobinson.github.io/post/size-ki/</link>
-      <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 20 Nov 2015 00:00:00 +0400</pubDate>
       
       <guid>https://jpwrobinson.github.io/post/size-ki/</guid>
       <description>Despite a strong focus on understanding patterns in the diversity, behaviour and functional roles of fish on coral reefs, we know far less about how fish communities are structured. In most aquatic communities, gape limitation and ontogenetic niche shifts produce communities that are size structured, where predators are larger than their prey. Our expectation is that reef fish communities should also be size structured, though this has not been formally tested.</description>
