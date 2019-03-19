@@ -7,15 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Thu, 29 Nov 2018 00:00:00 +0400</lastBuildDate>
+    <lastBuildDate>Fri, 15 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jpwrobinson.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Uncovering drivers of juvenile coral density following mass bleaching</title>
+      <link>https://jpwrobinson.github.io/publication/dajka2019-cj/</link>
+      <pubDate>Fri, 15 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jpwrobinson.github.io/publication/dajka2019-cj/</guid>
+      <description>Abstract
+Thermally induced mass coral bleaching is globally responsible for major losses of coral cover. Coral recovery from mass coral disturbances like the 2016 bleaching event hinges on successful recruitment of new coral colonies to the existing population. Juvenile corals as a life history stage represent survival and growth of new recruits. As such, habitat preferences of juvenile corals and how environmental parameters interact to drive coral recovery following a mass bleaching disturbance are important research areas.</description>
+    </item>
+    
+    <item>
       <title>Productive instability of coral reef fisheries after climate-driven regime shifts</title>
       <link>https://jpwrobinson.github.io/publication/robinson2018-qs/</link>
-      <pubDate>Thu, 29 Nov 2018 00:00:00 +0400</pubDate>
+      <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://jpwrobinson.github.io/publication/robinson2018-qs/</guid>
       <description>Abstract
@@ -27,7 +37,7 @@ Tropical coastal communities are highly reliant on coral reefs, which provide nu
 reef benthic community composition: implications for quantitative
 baselines</title>
       <link>https://jpwrobinson.github.io/publication/robinson2018-tf/</link>
-      <pubDate>Tue, 25 Sep 2018 00:00:00 +0400</pubDate>
+      <pubDate>Tue, 25 Sep 2018 00:00:00 +0100</pubDate>
       
       <guid>https://jpwrobinson.github.io/publication/robinson2018-tf/</guid>
       <description>Abstract
@@ -37,7 +47,7 @@ Our ability to understand natural constraints on coral reef benthic communities 
     <item>
       <title>Enhancing Climate Change Research With Open Science</title>
       <link>https://jpwrobinson.github.io/publication/tai2018-dd/</link>
-      <pubDate>Sat, 15 Sep 2018 00:00:00 +0400</pubDate>
+      <pubDate>Sat, 15 Sep 2018 00:00:00 +0100</pubDate>
       
       <guid>https://jpwrobinson.github.io/publication/tai2018-dd/</guid>
       <description>Abstract
@@ -47,7 +57,7 @@ Climate change research aims to understand global environmental change and how i
     <item>
       <title>Fishing degrades size structure of coral reef fish communities</title>
       <link>https://jpwrobinson.github.io/publication/robinson2017-xm/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0400</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jpwrobinson.github.io/publication/robinson2017-xm/</guid>
       <description>Abstract
@@ -57,7 +67,7 @@ Fishing pressure on coral reef ecosystems has been frequently linked to reductio
     <item>
       <title>Testing and recommending methods for fitting size spectra to data</title>
       <link>https://jpwrobinson.github.io/publication/edwards2017-wp/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0400</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jpwrobinson.github.io/publication/edwards2017-wp/</guid>
       <description>Abstract
@@ -68,7 +78,7 @@ Fishing pressure on coral reef ecosystems has been frequently linked to reductio
     <item>
       <title>Trophic roles determine coral reef fish community size structure</title>
       <link>https://jpwrobinson.github.io/publication/robinson2016-wg/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0400</pubDate>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://jpwrobinson.github.io/publication/robinson2016-wg/</guid>
       <description>Abstract
@@ -79,7 +89,7 @@ Relationships between abundance – body size and trophic position – body size
       <title>Estimation of predator-prey mass ratios using stable isotopes:
 sources of errors</title>
       <link>https://jpwrobinson.github.io/publication/hertz2014-pw/</link>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 +0400</pubDate>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
       <guid>https://jpwrobinson.github.io/publication/hertz2014-pw/</guid>
       <description>Abstract
@@ -90,7 +100,7 @@ In aquatic systems, the ratio of predator mass to prey mass (PPMR) is an importa
       <title>The limitations of diversity metrics in directing global marine
 conservation</title>
       <link>https://jpwrobinson.github.io/publication/robinson2014-ow/</link>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 +0400</pubDate>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
       <guid>https://jpwrobinson.github.io/publication/robinson2014-ow/</guid>
       <description>Abstract
@@ -101,7 +111,7 @@ Biodiversity hotspots have been used extensively in setting conservation priorit
       <title>Interspecific synchrony of seabird population growth rate and
 breeding success</title>
       <link>https://jpwrobinson.github.io/publication/robinson2013-ut/</link>
-      <pubDate>Tue, 01 Jan 2013 00:00:00 +0400</pubDate>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
       
       <guid>https://jpwrobinson.github.io/publication/robinson2013-ut/</guid>
       <description>Abstract
