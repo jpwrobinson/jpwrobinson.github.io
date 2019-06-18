@@ -11,6 +11,35 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Abiotic and biotic controls on coral recovery 16 years after mass
+bleaching</title>
+      <link>https://jpwrobinson.github.io/publication/robinson2019-cr/</link>
+      <pubDate>Tue, 18 Jun 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://jpwrobinson.github.io/publication/robinson2019-cr/</guid>
+      <description>&lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+
+&lt;div data-badge-details=&#34;right&#34; data-badge-type=&#34;medium-donut&#34; data-doi=&#34;10.1007/s00338-019-01831-7&#34; data-hide-no-mentions=&#34;true&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;As climate changes increase heat stress on tropical ecosystems, the long-term persistence of coral reefs requires rapid coral recovery following coral bleaching events. Using the extent of coral cover return to a pre-bleaching baseline as a benchmark, recovery of fast-growing and stress-tolerant coral growth forms suggests that reefs can bounce back between repeated disturbances if given adequate time and protection from anthropogenic disturbances. However, long-term recovery dynamics of coral communities following severe bleaching and mass mortality are limited, particularly for fringing reefs along inhabited coastlines where human stressors may compromise recovery potential. Here, we examine the dynamics and drivers of coral recovery in Seychelles, where 12 reefs returned to pre-bleaching coral cover levels after a severe bleaching event caused &amp;gt; 95% coral mortality. Six reefs with initially low cover ( &amp;lt; 25%) recovered within 7–12 yr and, after 16 yr, exceeded pre-bleaching cover levels by 132–305%. In contrast, six reefs with initially high cover (20–60%) remained at 48–93% of pre-bleaching levels, with recovery projected to take 17–29 yr. Abiotic and historic conditions constrained recovery rates, with the slowest recovery times observed on deep and wave-exposed reefs with high pre-bleaching coral cover. Reefs with high juvenile coral densities and low nitrogen levels recovered fastest, possibly due to the interplay between nutrient enrichment, algal proliferation, and coral recruitment. Our findings emphasize the importance of understanding small-scale variation in recovery potential, whereby recovery times were governed by natural limits on growth rates and modified by coral recruitment and nutrient enrichment. Ultimately, climate-impacted reefs can recover to moderate coral cover levels, but, if bleaching causes repeated high coral mortality, short recovery windows will prevent a return to historic levels of coral dominance.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Thermal stress induces persistently altered coral reef fish assemblages</title>
+      <link>https://jpwrobinson.github.io/publication/robinson2019-gc/</link>
+      <pubDate>Tue, 18 Jun 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://jpwrobinson.github.io/publication/robinson2019-gc/</guid>
+      <description>&lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+
+&lt;div data-badge-details=&#34;right&#34; data-badge-type=&#34;medium-donut&#34; data-doi=&#34;10.1111/gcb.14704&#34; data-hide-no-mentions=&#34;true&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;Ecological communities are reorganizing in response to warming temperatures. For continuous ocean habitats this reorganization is characterized by large‐scale species redistribution, but for tropical discontinuous habitats such as coral reefs, spatial isolation coupled with strong habitat dependence of fish species imply that turnover and local extinctions are more significant mechanisms. In these systems, transient marine heatwaves are causing coral bleaching and profoundly altering habitat structure, yet despite severe bleaching events becoming more frequent and projections indicating annual severe bleaching by the 2050s at most reefs, long‐term effects on the diversity and structure of fish assemblages remain unclear. Using a 23‐year time series spanning a thermal stress event, we describe and model structural changes and recovery trajectories of fish communities after mass bleaching. Communities changed fundamentally, with the new emergent communities dominated by herbivores and persisting for &amp;gt;15 years, a period exceeding realized and projected intervals between thermal stress events on coral reefs. Reefs which shifted to macroalgal states had the lowest species richness and highest compositional dissimilarity, whereas reefs where live coral recovered exceeded prebleaching fish richness, but remained dissimilar to prebleaching compositions. Given realized and projected frequencies of bleaching events, our results show that fish communities historically associated with coral reefs will not re‐establish, requiring substantial adaptation by managers and resource users.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Boom and bust of keystone structure on coral reefs</title>
       <link>https://jpwrobinson.github.io/publication/wilson2019-cr/</link>
       <pubDate>Sat, 25 May 2019 00:00:00 +0100</pubDate>
@@ -339,32 +368,6 @@ baselines</title>
 &lt;/figcaption&gt;
 
 &lt;/figure&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Estimation of predator-prey mass ratios using stable isotopes:
-sources of errors</title>
-      <link>https://jpwrobinson.github.io/publication/hertz2014-pw/</link>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://jpwrobinson.github.io/publication/hertz2014-pw/</guid>
-      <description>&lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
-
-&lt;div data-badge-details=&#34;right&#34; data-badge-type=&#34;medium-donut&#34; data-doi=&#34;10.3354/meps11079&#34; data-hide-no-mentions=&#34;true&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;
-
-&lt;p&gt;In aquatic systems, the ratio of predator mass to prey mass (PPMR) is an important constraint on food web structure, and has been correlated with environmental stability. One common approach of estimating PPMR uses nitrogen stable isotopes (δ15N) as an indicator of trophic position, under the assumption that the discrimination between diet and tissue is constant with increasing diet δ15N (an additive approach). However, recent studies have shown that this assumption may not be valid and that there is a negative trend between the δ15N of the diet and the discrimination value (a scaled approach). Here, we estimated PPMR for a simulated food web using both the traditional additive approach and the improved scaled approach, and then tested our predictions with isotope samples from a North Sea food web. Our simulations show that the additive approach yields incorrect estimates of PPMR, and these biases are reflected in North Sea PPMR estimates. The extent of the bias is dependent on the baseline δ15N and trophic level sampled, with the greatest differences for samples with low baseline δ15N sampled at lower trophic levels. The scaled approach allows for the comparison of PPMR across varying δ15N baselines and trophic levels, and will refine estimates of PPMR.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The limitations of diversity metrics in directing global marine
-conservation</title>
-      <link>https://jpwrobinson.github.io/publication/robinson2014-ow/</link>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://jpwrobinson.github.io/publication/robinson2014-ow/</guid>
-      <description>&lt;p&gt;Biodiversity hotspots have been used extensively in setting conservation priorities for marine ecosystems. A recent Nature publication claims to have uncovered new latitudinal gradients in the evenness of reef communities and new reef hotspots based on functional diversity. Simulation models show that the purported evenness gradient is a mathematical inevitability of differences in species richness and detectability between vastly different marine ecosystems, namely ‘reefs’ in tropical, temperate, and polar regions. Constraints on evenness, along with disparity amongst communities in possible functional traits, cast doubt on the utility of global functional diversity comparisons for management of marine systems.&lt;/p&gt;
 </description>
     </item>
     
