@@ -11,25 +11,58 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Fishing and habitat control grazing potential across 72 coral reefs</title>
+      <link>https://jpwrobinson.github.io/post/func-grazing/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://jpwrobinson.github.io/post/func-grazing/</guid>
+      <description>&lt;p&gt;&lt;em&gt;This is my &lt;a href=&#34;https://fesummaries.wordpress.com/2019/09/26/fishing-and-habitat-quality-control-grazing-functions-across-72-coral-reefs/&#34; target=&#34;_blank&#34;&gt;Plain Language Summary&lt;/a&gt; posted on Functional Ecology&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Coral reefs support high numbers of fishes which feed on plant material – these reef herbivores include surgeonfish which act as lawnmowers to ‘crop’ turf algae and parrotfish with powerful beaked jaws which ‘scrape’ algae and dirt from the reef.&lt;/p&gt;
+
+&lt;p&gt;Experiments have shown that cropping and scraping are key ecological functions on coral reefs, helping to maintain reefs in coral-dominated states, particularly after events such as coral bleaching which kill corals and allow fast-growing turf algae and seaweeds to take over. At larger spatial scales – across the Great Barrier Reef, or among Pacific atolls –the biomass of cropping and scraping species can vary greatly, which has been linked to effects of fishing and habitat quality on fish populations.&lt;/p&gt;
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;image1.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;School of Singapore parrotfish (Scarus prasiognathos) grazing on an Indo-Pacific reef (credit: Tane Sinclair-Taylor)&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;Analyses which tie these two approaches together – small-scale feeding rates with large-scale fish biomass estimates – can be used to measure cropping and scraping rates for entire coral reef ecosystems, and so identify influences of fishing and habitat on grazing functions. &lt;a href=&#34;https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2435.13457&#34; target=&#34;_blank&#34;&gt;In our paper&lt;/a&gt;, we generated estimates of grazing functions – cropping and scraping - at 72 coral reefs across the Indo-Pacific, combining underwater feeding observations with fish biomass data from Seychelles, Maldives, the Chagos archipelago, and the Great Barrier Reef. We found that cropping rates depended on reef habitat complexity and the amount of available space on the reef floor, whereas scraping rates were most strongly affected by fishing pressure. These patterns allow us to infer that cropping function will increase in response to loss of corals, and show that scraping function on most reefs is now far below levels observed on unfished, wilderness reefs.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Habitat and fishing control grazing potential on coral reefs</title>
       <link>https://jpwrobinson.github.io/publication/robinson2019-fe/</link>
       <pubDate>Mon, 07 Oct 2019 00:00:00 +0100</pubDate>
       
       <guid>https://jpwrobinson.github.io/publication/robinson2019-fe/</guid>
       <description>&lt;p&gt;&lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
-&lt;div data-badge-details=&#34;right&#34; data-badge-type=&#34;medium-donut&#34; data-doi=&#34;10.1007/s00338-019-01785-w&#34; data-hide-no-mentions=&#34;true&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;div data-badge-details=&#34;right&#34; data-badge-type=&#34;medium-donut&#34; data-doi=&#34;10.1007/s00338-019-01785-w&#34; data-hide-no-mentions=&#34;true&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;
+1. Herbivory is a key process on coral reefs which, through grazing of algae, can help sustain coral-dominated states on frequently-disturbed reefs and reverse macroalgal regime shifts on degraded ones.&lt;/p&gt;
 
-&lt;p&gt;\1.   Herbivory is a key process on coral reefs which, through grazing of algae, can help sustain coral-dominated states on frequently-disturbed reefs and reverse macroalgal regime shifts on degraded ones.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Our understanding of herbivory on reefs is largely founded on feeding observations at small spatial scales, yet the biomass and structure of herbivore populations is more closely linked to processes which can be highly variable across large areas, such as benthic habitat turnover and fishing pressure. Though our understanding of spatiotemporal variation in grazer biomass is well developed, equivalent macroscale approaches to understanding bottom-up and top-down controls on herbivory are lacking.&lt;/p&gt;&lt;/li&gt;
 
-&lt;p&gt;\2.    Our understanding of herbivory on reefs is largely founded on feeding observations at small spatial scales, yet the biomass and structure of herbivore populations is more closely linked to processes which can be highly variable across large areas, such as benthic habitat turnover and fishing pressure. Though our understanding of spatiotemporal variation in grazer biomass is well developed, equivalent macroscale approaches to understanding bottom-up and top-down controls on herbivory are lacking.&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Here, we integrate underwater survey data of fish abundances from four Indo-Pacific island regions with herbivore feeding observations to estimate grazing rates for two herbivore functions, cropping (which controls turf algae) and scraping (which promotes coral settlement by clearing benthic substrate), for 72 coral reefs. By including a range of reef states, from coral to algal dominance and heavily-fished to remote wilderness areas, we evaluate the influences of benthic habitat and fishing on the grazing rates of fish assemblages.&lt;/p&gt;&lt;/li&gt;
 
-&lt;p&gt;\3.    Here, we integrate underwater survey data of fish abundances from four Indo-Pacific island regions with herbivore feeding observations to estimate grazing rates for two herbivore functions, cropping (which controls turf algae) and scraping (which promotes coral settlement by clearing benthic substrate), for 72 coral reefs. By including a range of reef states, from coral to algal dominance and heavily-fished to remote wilderness areas, we evaluate the influences of benthic habitat and fishing on the grazing rates of fish assemblages.&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Cropping rates were primarily influenced by benthic condition, with cropping maximised on structurally complex reefs with high substratum availability and low macroalgal cover. Fishing was the primary driver of scraping function, with scraping rates depleted at most reefs relative to remote, unfished reefs, though scraping did increase with substratum availability and structural complexity.&lt;/p&gt;&lt;/li&gt;
 
-&lt;p&gt;\4.    Cropping rates were primarily influenced by benthic condition, with cropping maximised on structurally complex reefs with high substratum availability and low macroalgal cover. Fishing was the primary driver of scraping function, with scraping rates depleted at most reefs relative to remote, unfished reefs, though scraping did increase with substratum availability and structural complexity.&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Ultimately, benthic and fishing conditions influenced herbivore functioning through their effect on grazer biomass, which was tightly correlated to grazing rates. For a given level of biomass, we show that grazing rates are higher on reefs dominated by small-bodied fishes, suggesting that grazing pressure is greatest when grazer size structure is truncated.&lt;/p&gt;&lt;/li&gt;
 
-&lt;p&gt;\5.    Ultimately, benthic and fishing conditions influenced herbivore functioning through their effect on grazer biomass, which was tightly correlated to grazing rates. For a given level of biomass, we show that grazing rates are higher on reefs dominated by small-bodied fishes, suggesting that grazing pressure is greatest when grazer size structure is truncated.&lt;/p&gt;
-
-&lt;p&gt;\6.    Stressors which cause coral declines and clear substrate for turf algae will likely stimulate increases in cropping rates, in both fished and protected areas. In contrast, scraping functions are already impaired at inhabited reefs, particularly where structural complexity has collapsed, indicating that restoration of these key processes will require scraper biomass to be rebuilt towards wilderness levels.&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Stressors which cause coral declines and clear substrate for turf algae will likely stimulate increases in cropping rates, in both fished and protected areas. In contrast, scraping functions are already impaired at inhabited reefs, particularly where structural complexity has collapsed, indicating that restoration of these key processes will require scraper biomass to be rebuilt towards wilderness levels.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
@@ -325,20 +358,6 @@ baselines</title>
 &lt;/figure&gt;
 
 &lt;p&gt;In a paper led jointly by Dr. Eric Hertz (Simon Fraser University) and myself, we applied Hussey et al.&amp;rsquo;s (2014) scaled trophic fractionation model to simulated data and North Sea stable isotope data. Our results indicated that the additive stable isotope approach produces incorrect PPMR estimates, and that the extent of the bias is dependent on the baseline 15-N and the trophic level sampled. For those wishing to correctly calculate PPMR from stable isotope data, &lt;a href=&#34;http://github.com/baumlab/ppmr-isotopes&#34; target=&#34;_blank&#34;&gt;here&amp;rsquo;s the code&lt;/a&gt; that applies the Hussey et al. (2014) scaled trophic fractionation model to directly estimate PPMR.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Trophic roles determine coral reef fish community size structure</title>
-      <link>https://jpwrobinson.github.io/publication/robinson2016-wg/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://jpwrobinson.github.io/publication/robinson2016-wg/</guid>
-      <description>&lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
-
-&lt;div data-badge-details=&#34;right&#34; data-badge-type=&#34;medium-donut&#34; data-doi=&#34;10.1139/cjfas-2015-0178&#34; data-hide-no-mentions=&#34;true&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;
-
-&lt;p&gt;Relationships between abundance – body size and trophic position – body size can reveal size structuring in food webs and test ecological theory. Although there is considerable evidence of size structuring in temperate aquatic food webs, little is known about the structure of tropical coral reef food webs. Here, we use underwater visual-census data and nitrogen stable isotope analysis to test if coral reef fish communities (i) are size structured and (ii) follow metabolic scaling rules. After examining individuals from over 160 species spanning four orders of magnitude in body size, we show that abundance scaled negatively with body size and, as predicted, individuals sharing energy through predation (carnivorous fishes) scaled more steeply than those individuals sharing a common energy source (herbivorous fishes). Estimated size spectra were, however, shallower than predicted by metabolic theory. Trophic position scaled positively with body size across species and across individuals, providing novel evidence of size structuring in a diverse tropical food web. Size-based approaches hold great promise for integrating the complexities of food webs into simple quantitative measures, thus providing new insights into the structure and function of aquatic ecosystems.&lt;/p&gt;
 </description>
     </item>
     
