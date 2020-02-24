@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 07 Oct 2019 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 21 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jpwrobinson.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Diversification insulates fisher catch and revenue in heavily exploited tropical fisheries.</title>
+      <link>https://jpwrobinson.github.io/publication/robinson2020-sa/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jpwrobinson.github.io/publication/robinson2020-sa/</guid>
+      <description>Declines in commercial landings and increases in fishing fleet power have raised concerns over the continued provisioning of nutritional and economic services by tropical wild fisheries. Yet, because tropical fisheries are often data-poor, mechanisms that might buffer fishers to declines are not understood. This data scarcity undermines fisheries management, making tropical fishing livelihoods particularly vulnerable to changes in marine resources. We use high-resolution fisheries data from Seychelles to understand how fishing strategy (catch diversification) influences catch rates and revenues of individual fishing vessels.</description>
+    </item>
     
     <item>
       <title>Habitat and fishing control grazing potential on coral reefs</title>
@@ -30,6 +39,15 @@ bleaching</title>
       
       <guid>https://jpwrobinson.github.io/publication/robinson2019-cr/</guid>
       <description>As climate changes increase heat stress on tropical ecosystems, the long-term persistence of coral reefs requires rapid coral recovery following coral bleaching events. Using the extent of coral cover return to a pre-bleaching baseline as a benchmark, recovery of fast-growing and stress-tolerant coral growth forms suggests that reefs can bounce back between repeated disturbances if given adequate time and protection from anthropogenic disturbances. However, long-term recovery dynamics of coral communities following severe bleaching and mass mortality are limited, particularly for fringing reefs along inhabited coastlines where human stressors may compromise recovery potential.</description>
+    </item>
+    
+    <item>
+      <title>Accounting for the bin structure of data removes bias when fitting size spectra</title>
+      <link>https://jpwrobinson.github.io/publication/edwards2020-me/</link>
+      <pubDate>Tue, 18 Jun 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://jpwrobinson.github.io/publication/edwards2020-me/</guid>
+      <description>Size spectra are recommended tools for detecting the response of marine communities to fishing or to management measures. A size spectrum succinctly describes how a property, such as abundance or biomass, varies with body size in a community. Required data are often collected in binned form, such as numbers of individuals in 1 cm length bins. Numerous methods have been employed to fit size spectra, but most give biased estimates when tested on simulated data, and none account for the data’s bin structure (breakpoints of bins).</description>
     </item>
     
     <item>

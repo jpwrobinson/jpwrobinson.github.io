@@ -11,6 +11,18 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Diversification insulates fisher catch and revenue in heavily exploited tropical fisheries.</title>
+      <link>https://jpwrobinson.github.io/publication/robinson2020-sa/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jpwrobinson.github.io/publication/robinson2020-sa/</guid>
+      <description>&lt;p&gt;&lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+&lt;div data-badge-details=&#34;right&#34; data-badge-type=&#34;medium-donut&#34; data-doi=&#34;10.1111/gcb.14704&#34; data-hide-no-mentions=&#34;true&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;
+Declines in commercial landings and increases in fishing fleet power have raised concerns over the continued provisioning of nutritional and economic services by tropical wild fisheries. Yet, because tropical fisheries are often data-poor, mechanisms that might buffer fishers to declines are not understood. This data scarcity undermines fisheries management, making tropical fishing livelihoods particularly vulnerable to changes in marine resources. We use high-resolution fisheries data from Seychelles to understand how fishing strategy (catch diversification) influences catch rates and revenues of individual fishing vessels. We show that average catch weight decreased by 65% over 27 years, with declines in all nine species groups coinciding with increases in fishing effort. However, for individual vessels, catch diversity was associated with larger catches and higher fishing revenues and with slower catch declines from 1990 to 2016. Management strategies should maximize catch diversity in data-poor tropical fisheries to help secure nutritional security while protecting fishing livelihoods.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Fishing and habitat control grazing potential across 72 coral reefs</title>
       <link>https://jpwrobinson.github.io/post/func-grazing/</link>
       <pubDate>Wed, 09 Oct 2019 00:00:00 +0100</pubDate>
@@ -77,6 +89,18 @@ bleaching</title>
 &lt;div data-badge-details=&#34;right&#34; data-badge-type=&#34;medium-donut&#34; data-doi=&#34;10.1007/s00338-019-01831-7&#34; data-hide-no-mentions=&#34;true&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 
 &lt;p&gt;As climate changes increase heat stress on tropical ecosystems, the long-term persistence of coral reefs requires rapid coral recovery following coral bleaching events. Using the extent of coral cover return to a pre-bleaching baseline as a benchmark, recovery of fast-growing and stress-tolerant coral growth forms suggests that reefs can bounce back between repeated disturbances if given adequate time and protection from anthropogenic disturbances. However, long-term recovery dynamics of coral communities following severe bleaching and mass mortality are limited, particularly for fringing reefs along inhabited coastlines where human stressors may compromise recovery potential. Here, we examine the dynamics and drivers of coral recovery in Seychelles, where 12 reefs returned to pre-bleaching coral cover levels after a severe bleaching event caused &amp;gt; 95% coral mortality. Six reefs with initially low cover ( &amp;lt; 25%) recovered within 7–12 yr and, after 16 yr, exceeded pre-bleaching cover levels by 132–305%. In contrast, six reefs with initially high cover (20–60%) remained at 48–93% of pre-bleaching levels, with recovery projected to take 17–29 yr. Abiotic and historic conditions constrained recovery rates, with the slowest recovery times observed on deep and wave-exposed reefs with high pre-bleaching coral cover. Reefs with high juvenile coral densities and low nitrogen levels recovered fastest, possibly due to the interplay between nutrient enrichment, algal proliferation, and coral recruitment. Our findings emphasize the importance of understanding small-scale variation in recovery potential, whereby recovery times were governed by natural limits on growth rates and modified by coral recruitment and nutrient enrichment. Ultimately, climate-impacted reefs can recover to moderate coral cover levels, but, if bleaching causes repeated high coral mortality, short recovery windows will prevent a return to historic levels of coral dominance.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Accounting for the bin structure of data removes bias when fitting size spectra</title>
+      <link>https://jpwrobinson.github.io/publication/edwards2020-me/</link>
+      <pubDate>Tue, 18 Jun 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://jpwrobinson.github.io/publication/edwards2020-me/</guid>
+      <description>&lt;p&gt;&lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+&lt;div data-badge-details=&#34;right&#34; data-badge-type=&#34;medium-donut&#34; data-doi=&#34;10.1111/gcb.14704&#34; data-hide-no-mentions=&#34;true&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;
+ Size spectra are recommended tools for detecting the response of marine communities to fishing or to management measures. A size spectrum succinctly describes how a property, such as abundance or biomass, varies with body size in a community. Required data are often collected in binned form, such as numbers of individuals in 1 cm length bins. Numerous methods have been employed to fit size spectra, but most give biased estimates when tested on simulated data, and none account for the data’s bin structure (breakpoints of bins). Here, we used 8 methods to fit an annual size-spectrum exponent, b, to an example data set (30 yr of the North Sea International Bottom Trawl Survey). The methods gave conflicting conclusions regarding b declining (the size spectrum steepening) through time, and so any resulting advice to ecosystem managers will be highly dependent upon the method used. Using simulated data, we showed that ignoring the bin structure gives biased estimates of b, even for high-resolution data. However, our extended likelihood method, which explicitly accounts for the bin structure, accurately estimated b and its confidence intervals, even for coarsely collected data. We developed a novel visualisation method that accounts for the bin structure and associated uncertainty, provide recommendations concerning different data types and have created an R package (sizeSpectra) to reproduce all results and encourage use of our methods. This work is also relevant to wider applications where a power-law distribution (the underlying distribution for a size spectrum) is fitted to binned data.&lt;/p&gt;
 </description>
     </item>
     
@@ -295,68 +319,6 @@ baselines</title>
 &lt;p&gt;By shifting to greater dominance of small-bodied fishes, size-selective fishing produces fish communities that have faster biomass turnover times, greater vulnerability to environmental change, and depleted numbers of functionally important large-bodied individuals, such as the large grazing fish that control algal cover and large predatory fish that link pelagic food webs with the reef benthos. Size-selective exploitation has a consistent impact across marine ecosystems: the steepening spectra we describe here have also been widely documented in temperate fisheries . Such size-based indicators are robust and meaningful indicators of fishing pressure, and may be particularly effective for reef fisheries that often lack meaningful catch and effort data.&lt;/p&gt;
 
 &lt;p&gt;Future application of size-based indicators to coral reef fish communities could provide valuable insights for reef fisheries managers: for those interested in fitting size spectra or using our statistical modelling approach, here&amp;rsquo;s our &lt;a href=&#34;https://github.com/baumlab/robinson-reefs-spectra&#34; target=&#34;_blank&#34;&gt;R code&lt;/a&gt; and &lt;a href=&#34;http://onlinelibrary.wiley.com/doi/10.1111/gcb.13482/abstract&#34; target=&#34;_blank&#34;&gt;the study&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Fitting size spectra to empirical data</title>
-      <link>https://jpwrobinson.github.io/post/size-methods/</link>
-      <pubDate>Wed, 13 Jul 2016 00:00:00 +0100</pubDate>
-      
-      <guid>https://jpwrobinson.github.io/post/size-methods/</guid>
-      <description>&lt;p&gt;The size spectrum describes the distribution of body sizes within a community, and is widely used among fisheries biologists to track exploitation effects and parameterise theoretical size-based ecosystem models. Most notably, empirical size spectrum estimates have provided insights into community-level changes in overfished ecosystems. In a project led by &lt;a href=&#34;http://www.chebucto.ns.ca/~english/&#34; target=&#34;_blank&#34;&gt;Dr. Andrew Edwards&lt;/a&gt; (Pacific Biological Station, Fisheries and Oceans Canada) and recently published in &lt;a href=&#34;http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12641/abstract&#34; target=&#34;_blank&#34;&gt;Methods in Ecology &amp;amp; Evolution&lt;/a&gt;, we show that empirical size-spectrum fitting methods are not standardised and many are biased.&lt;/p&gt;
-
-&lt;p&gt;Individual body size distributions typically exhibit power law relationships, with an exponent b that quantifies the relative abundances of body sizes. In practice, size spectra have typically been fitted by fitting a linear regression to binned abundance and body size data in log-log space, where the slope of the regression is analagous to the power law exponent. b is negative, reflecting a decrease in abundance as body size increases, and is said to ‘steepen’ (or decrease) when fishing pressure is size-selective and large-bodied fishes are removed from the community. We tested the accuracy of different fitting methods including binned vs. unbinned data and regression vs. power law distribution fitting.&lt;/p&gt;
-
-&lt;p&gt;Our results indicate that maximum likelihood estimation of power law distributions gives the most accurate estimates of size spectrum exponents (b estimates). &lt;a href=&#34;http://github.com/andrew-edwards/fitting-size-spectra/&#34; target=&#34;_blank&#34;&gt;We provide code&lt;/a&gt; for maximum likelihood estimation of binned and unbinned body size data, and also recommend that size spectra are presented by plotting both a log-log biomass spectrum and an untransformed abundance spectrum that allows visual inspection of every data point (Figure 1).&lt;/p&gt;
-
-&lt;p&gt;We hope that fisheries biologists will use these tools to improve their analyses of community size spectra, and that our work has improved the utility of size spectra as indicators of ecological change. The published paper is Open Access and can be downloaded from Methods in Ecology &amp;amp; Evolution.&lt;/p&gt;
-
-
-
-
-&lt;figure&gt;
-
-&lt;img src=&#34;fig1.png&#34; /&gt;
-
-
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-  &lt;h4&gt;Suggested plots for biomass size spectrum (a; binned data) and abundance size spectrum (b; raw data).&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Predator-prey mass ratios</title>
-      <link>https://jpwrobinson.github.io/post/ppmr/</link>
-      <pubDate>Fri, 01 Jul 2016 00:00:00 +0100</pubDate>
-      
-      <guid>https://jpwrobinson.github.io/post/ppmr/</guid>
-      <description>&lt;p&gt;Predator-prey mass ratios (PPMRs) reflect the strength of interactions between predators and prey, and can be used to examine community size structure. PPMRs can be estimated using diet data (e.g. Barnes et al. 2010, Ecology) or with stable isotope methods in which an individual&amp;rsquo;s trophic position is inferred by measuring the fractionation of nitrogen 15-N relative to a baseline value.&lt;/p&gt;
-
-&lt;p&gt;Although standard &amp;lsquo;additive&amp;rsquo; approaches assume that 15-N fractionates by 3.4‰, Hussey et al. (2014, Ecol. Lett.) showed that fractionation values are dependent on tissue 15-N and so increase with trophic level.&lt;/p&gt;
-
-
-
-
-&lt;figure&gt;
-
-&lt;img src=&#34;figure1.png&#34; /&gt;
-
-
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-  &lt;h4&gt;Trophic position ~ body mass relationship produced using scaled (red) and additive (black) fractionation methods&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
-&lt;p&gt;In a paper led jointly by Dr. Eric Hertz (Simon Fraser University) and myself, we applied Hussey et al.&amp;rsquo;s (2014) scaled trophic fractionation model to simulated data and North Sea stable isotope data. Our results indicated that the additive stable isotope approach produces incorrect PPMR estimates, and that the extent of the bias is dependent on the baseline 15-N and the trophic level sampled. For those wishing to correctly calculate PPMR from stable isotope data, &lt;a href=&#34;http://github.com/baumlab/ppmr-isotopes&#34; target=&#34;_blank&#34;&gt;here&amp;rsquo;s the code&lt;/a&gt; that applies the Hussey et al. (2014) scaled trophic fractionation model to directly estimate PPMR.&lt;/p&gt;
 </description>
     </item>
     
