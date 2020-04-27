@@ -11,6 +11,19 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Changing role of coral reef marine reserves in a warming climate
+Access &amp; Citations</title>
+      <link>https://jpwrobinson.github.io/publication/graham2020-nc/</link>
+      <pubDate>Fri, 24 Apr 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://jpwrobinson.github.io/publication/graham2020-nc/</guid>
+      <description>&lt;p&gt;&lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+&lt;div data-badge-details=&#34;right&#34; data-badge-type=&#34;medium-donut&#34; data-doi=&#34;10.1126/sciadv.aaz0587&#34; data-hide-no-mentions=&#34;true&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;
+Coral reef ecosystems are among the first to fundamentally change in structure due to climate change, which leads to questioning of whether decades of knowledge regarding reef management is still applicable. Here we assess ecological responses to no-take marine reserves over two decades, spanning a major climate-driven coral bleaching event. Pre-bleaching reserve responses were consistent with a large literature, with higher coral cover, more species of fish, and greater fish biomass, particularly of upper trophic levels. However, in the 16 years following coral mortality, reserve effects were absent for the reef benthos, and greatly diminished for fish species richness. Positive fish biomass effects persisted, but the groups of fish benefiting from marine reserves profoundly changed, with low trophic level herbivores dominating the responses. These findings highlight that while marine reserves still have important roles on coral reefs in the face of climate change, the species and functional groups they benefit will be substantially altered.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Diversification insulates fisher catch and revenue in heavily exploited tropical fisheries.</title>
       <link>https://jpwrobinson.github.io/publication/robinson2020-sa/</link>
       <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
@@ -281,42 +294,6 @@ baselines</title>
 
 &lt;li&gt;&lt;p&gt;We therefore recommend the use of maximum likelihood estimation when fitting size spectra. To facilitate this, we provide documented R code for fitting and plotting results. This should provide consistency in future studies and improve the quality of any resulting advice to ecosystem managers. In particular, the calculation of reliable confidence intervals will allow proper consideration of uncertainty when making management decisions.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Fishing degrades reef fish size structure</title>
-      <link>https://jpwrobinson.github.io/post/size-crep/</link>
-      <pubDate>Wed, 07 Sep 2016 00:00:00 +0100</pubDate>
-      
-      <guid>https://jpwrobinson.github.io/post/size-crep/</guid>
-      <description>&lt;p&gt;From spears to gillnets and artisanal fishers to commercial boats, coral reef ecosystems are exploited across a range of fishing pressures and with diverse gear types. Reefs are valuable food resources for tropical coastal communities and yet our understanding of fishing impacts on reefs is often founded on studies that measure how much fish biomass is depleted in fished areas. In order to understand broader impacts on aspects of community structure we quantified reef fish size structure - the fish size distribution, or relative abundance of different body sizes - at major Pacific island groups that span gradients in human presence and environmental influences.&lt;/p&gt;
-
-&lt;p&gt;Using data collected by the Coral Reef Ecosystem Programme (NOAA), we measured the size spectrum, the large fish indicator, and total fish biomass at 38 US-affiliated islands and atolls in the Pacific Ocean, ranging from uninhabited pristine reefs (such as Palmyra atoll) to large population centres (such as Honolulu on Oahu).&lt;/p&gt;
-
-&lt;p&gt;The size spectrum is the exponent of the power law distribution of individual body sizes, and may be more widely recognised as the slope of the relationship between abundance ~ body size in log-log space [more information on fitting size spectra here]. The large fish indicator represents the biomass of large fishes relative to total fish biomass, and total fish biomass is the total mass of the fish community. We examined variation in these indicators across human population density, proximity to market centre, sea surface temperature, oceanic productivity, and 5 habitat variables.&lt;/p&gt;
-
-&lt;p&gt;Our results revealed that reef fish community size structure was degraded (or &amp;lsquo;steepened&amp;rsquo;) as human presence increased (Figure 1), consistent with a depletion of large-bodied fishes and a gradual shift to a communities that are dominated by small fishes. Although reef fish biomass was also depleted at high levels of human presence, all fished islands supported low biomass levels (~ 500 kg per hectare) irrespective of fishing pressure. Light size-selective fishing had a disproportionate impact on fish biomass but caused gradual shifts in size structure, and size spectra were also generally more robust to environmental variation than was fish biomass.&lt;/p&gt;
-
-
-
-
-&lt;figure&gt;
-
-&lt;img src=&#34;figure1.png&#34; /&gt;
-
-
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-  &lt;h4&gt;Change in size spectrum exponent and reef fish biomass along proximity to market (a, c) and human population density (b, d)&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
-&lt;p&gt;By shifting to greater dominance of small-bodied fishes, size-selective fishing produces fish communities that have faster biomass turnover times, greater vulnerability to environmental change, and depleted numbers of functionally important large-bodied individuals, such as the large grazing fish that control algal cover and large predatory fish that link pelagic food webs with the reef benthos. Size-selective exploitation has a consistent impact across marine ecosystems: the steepening spectra we describe here have also been widely documented in temperate fisheries . Such size-based indicators are robust and meaningful indicators of fishing pressure, and may be particularly effective for reef fisheries that often lack meaningful catch and effort data.&lt;/p&gt;
-
-&lt;p&gt;Future application of size-based indicators to coral reef fish communities could provide valuable insights for reef fisheries managers: for those interested in fitting size spectra or using our statistical modelling approach, here&amp;rsquo;s our &lt;a href=&#34;https://github.com/baumlab/robinson-reefs-spectra&#34; target=&#34;_blank&#34;&gt;R code&lt;/a&gt; and &lt;a href=&#34;http://onlinelibrary.wiley.com/doi/10.1111/gcb.13482/abstract&#34; target=&#34;_blank&#34;&gt;the study&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
