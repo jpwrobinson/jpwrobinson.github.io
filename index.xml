@@ -11,6 +11,18 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Climate-induced increases in micronutrient availability for coral reef fisheries</title>
+      <link>https://jpwrobinson.github.io/publication/robinson2022-oe/</link>
+      <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jpwrobinson.github.io/publication/robinson2022-oe/</guid>
+      <description>&lt;p&gt;&lt;script type=&#34;text/javascript&#34; src=&#34;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#34;&gt;&lt;/script&gt;&lt;div class=&#34;altmetric-embed&#34; data-badge-type=&#34;donut&#34; data-altmetric-id=&#34;120363675&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;Climate change is transforming coral reefs, threatening supply of  essential dietary micronutrients from small-scale fisheries to tropical  coastal communities. Yet the nutritional value of reef fisheries and  climate impacts on micronutrient availability remain unclear, hindering  efforts to sustain food and nutrition security. Here, we measure  nutrient content in coral reef fishes in Seychelles and show that reef  fish are important sources of selenium and zinc and contain levels of  calcium, iron, and omega-3 fatty acids comparable with other  animal-source foods. Using experimental fishing, we demonstrate that  iron and zinc are enriched in fishes caught on regime-shifted macroalgal habitats, whereas selenium and omega-3 varied among species. We find  substantial increases in nutrients available to fisheries over two  decades following coral bleaching, particularly for iron and zinc after  macroalgal regime shifts. Our findings indicate that, if managed  sustainably, coral reef fisheries could remain important micronutrient  sources along tropical coastlines despite escalating climate impacts.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Secure local aquatic food systems in the face of declining coral reefs</title>
       <link>https://jpwrobinson.github.io/publication/hicks2021-oe/</link>
       <pubDate>Fri, 17 Sep 2021 00:00:00 +0100</pubDate>
@@ -269,20 +281,6 @@ baselines</title>
 &lt;div data-badge-details=&#34;right&#34; data-badge-type=&#34;medium-donut&#34; data-doi=&#34;10.1007/s00338-018-01737-w&#34; data-hide-no-mentions=&#34;true&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;
 
 &lt;p&gt;Our ability to understand natural constraints on coral reef benthic communities requires quantitative assessment of the relative strengths of abiotic and biotic processes across large spatial scales. Here, we combine underwater images, visual censuses and remote sensing data for 1,566 sites across 34 islands spanning the central- western Pacific Ocean, to empirically assess the relative roles of abiotic and grazing processes in determining the prevalence of calcifying organisms and fleshy algae on coral reefs. We used regression trees to identify the major predictors of benthic composition and to test whether anthropogenic stress at inhabited islands decouples natural relationships. We show that sea surface temperature, wave energy, oceanic productivity and aragonite saturation strongly influence benthic community composition; over- looking these factors may bias expectations of calcified reef states. Maintenance of grazing biomass above a relatively low threshold (~ 10–20 kg ha-1) may also prevent transitions to algal-dominated states, providing a tangible management target for rebuilding overexploited herbivore populations. Biophysical relationships did not decouple at inhabited islands, indicating that abiotic influences remain important macroscale processes, even at chronically dis-turbed reefs. However, spatial autocorrelation among inhabited reefs was substantial and exceeded abiotic and grazing influences, suggesting that natural constraints on reef benthos were superseded by unmeasured anthropogenic impacts. Evidence of strong abiotic influences on reef benthic communities underscores their importance in specifying quantitative targets for coral reef management and restoration that are realistic within the context of local conditions.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Enhancing Climate Change Research With Open Science</title>
-      <link>https://jpwrobinson.github.io/publication/tai2018-dd/</link>
-      <pubDate>Sat, 15 Sep 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://jpwrobinson.github.io/publication/tai2018-dd/</guid>
-      <description>&lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
-
-&lt;div data-badge-details=&#34;right&#34; data-badge-type=&#34;medium-donut&#34; data-doi=&#34;10.3389/fenvs.2018.00115&#34; data-hide-no-mentions=&#34;true&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;
-
-&lt;p&gt;Climate change research aims to understand global environmental change and how it will impact nature and society. The broad scope of climate change impacts means that successful adaptation and mitigation efforts will require an unprecedented collaboration effort that unites diverse disciplines and is able to rapidly respond to evolving climate issues (IPCC, 2014). However, to achieve this aim, climate change research practices need updating: key research findings remain behind journal paywalls, and scientific progress can be impeded by low levels of reproducibility and transparency (Ellison, 2010; Morueta-Holme et al., 2018), individual data ownership (Hampton et al., 2015), and inefficient research workflows (Lowndes et al., 2017). Furthermore, the level of public interest and policy engagement on climate change issues relies on fast communication of academic research to public institutions, with the result that the societal impact of climate change studies will differ according to their public availability and exposure. Here, we argue that by adopting open science (OS) principles, scientists can advance climate change research and accelerate efforts to mitigate impacts; especially for highly vulnerable developing regions of the world where research capacity is limited. We underscore the specific benefits of OS in raising the academic and societal impact of climate change research using citation and media metrics.&lt;/p&gt;
 </description>
     </item>
     
