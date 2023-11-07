@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Oct 2023 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://jpwrobinson.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Trophic distribution of nutrient production in coral reef fisheries</title>
+      <link>https://jpwrobinson.github.io/publication/robinson2023-pb/</link>
+      <pubDate>Wed, 04 Oct 2023 00:00:00 +0100</pubDate>
+      
+      <guid>https://jpwrobinson.github.io/publication/robinson2023-pb/</guid>
+      <description>Coral reef fisheries supply nutritious catch to tropical coastal communities, where the quality of reef seafood is determined by both the rate of biomass pro- duction and nutritional value of reef fishes. Yet our understanding of reef fisheries typically uses targets of total reef fish biomass rather than individual growth (i.e. biomass production) and nutrient content (i.e. nutritional value of reef fish), limiting the ability of management to sustain the productivity of nutritious catches.</description>
+    </item>
     
     <item>
       <title>Small pelagic fish supply abundant and affordable micronutrients to low- and middle-income countries</title>
