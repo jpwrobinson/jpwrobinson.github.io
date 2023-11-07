@@ -11,6 +11,18 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Climate change exacerbates nutrient disparities from seafood</title>
+      <link>https://jpwrobinson.github.io/publication/cheung2023-nc/</link>
+      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jpwrobinson.github.io/publication/cheung2023-nc/</guid>
+      <description>&lt;p&gt;&lt;script type=&#34;text/javascript&#34; src=&#34;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#34;&gt;&lt;/script&gt;&lt;div class=&#34;altmetric-embed&#34; data-badge-type=&#34;medium-donut&#34; data-altmetric-id=&#34;155901069&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;Seafood is an important source of bioavailable micronutrients supporting human health, yet it is unclear how micronutrient production has changed in the past or how climate change will influence its availability. Here combining reconstructed fisheries databases and predictive models, we assess nutrient availability from fisheries and mariculture in the past and project their futures under climate change. Since the 1990s, availabilities of iron, calcium and omega-3 from seafood for direct human consumption have increased but stagnated for protein. Under climate change, nutrient availability is projected to decrease disproportionately in tropical low-income countries that are already highly dependent on seafood-derived nutrients. At 4 oC of warming, nutrient availability is projected to decline by ~30% by 2100 in low income countries, while at 1.5–2.0 oC warming, decreases are projected to be ~10%. We demonstrate the importance of effective mitigation to support nutritional security of vulnerable nations and global health equity. The authors use fisheries databases and predictive models to understand past and future changes in the availability of iron, calcium omega-3 and protein from seafood. They show disproportional loss of nutrients in tropical low-income countries, which will be exacerbated by higher levels of global warming&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Trophic distribution of nutrient production in coral reef fisheries</title>
       <link>https://jpwrobinson.github.io/publication/robinson2023-pb/</link>
       <pubDate>Wed, 04 Oct 2023 00:00:00 +0100</pubDate>
@@ -210,38 +222,6 @@ Declines in commercial landings and increases in fishing fleet power have raised
       <description>&lt;p&gt;&lt;script type=&#34;text/javascript&#34; src=&#34;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#34;&gt;&lt;/script&gt;&lt;div class=&#34;altmetric-embed&#34; data-badge-type=&#34;medium-donut&#34; data-badge-details=&#39;right&#39; data-altmetric-id=&#34;120363675&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 
 &lt;p&gt;Tropical forests and coral reefs host a disproportionately large share of global biodiversity and provide ecosystem functions and services used by millions of people. Yet, ongoing climate change is leading to an increase in frequency and magnitude of extreme climatic events in the tropics, which, in combination with other local human disturbances, is leading to unprecedented negative ecological consequences for tropical forests and coral reefs. Here, we provide an overview of how and where climate extremes are affecting the most biodiverse ecosystems on Earth and summarize how interactions between global, regional and local stressors are affecting tropical forest and coral reef systems through impacts on biodiversity and ecosystem resilience. We also discuss some key challenges and opportunities to promote mitigation and adaptation to a changing climate at local and global scales.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Fishing and habitat control grazing potential across 72 coral reefs</title>
-      <link>https://jpwrobinson.github.io/post/func-grazing/</link>
-      <pubDate>Wed, 09 Oct 2019 00:00:00 +0100</pubDate>
-      
-      <guid>https://jpwrobinson.github.io/post/func-grazing/</guid>
-      <description>&lt;p&gt;&lt;em&gt;This is my &lt;a href=&#34;https://fesummaries.wordpress.com/2019/09/26/fishing-and-habitat-quality-control-grazing-functions-across-72-coral-reefs/&#34; target=&#34;_blank&#34;&gt;Plain Language Summary&lt;/a&gt; posted on Functional Ecology&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Coral reefs support high numbers of fishes which feed on plant material – these reef herbivores include surgeonfish which act as lawnmowers to ‘crop’ turf algae and parrotfish with powerful beaked jaws which ‘scrape’ algae and dirt from the reef.&lt;/p&gt;
-
-&lt;p&gt;Experiments have shown that cropping and scraping are key ecological functions on coral reefs, helping to maintain reefs in coral-dominated states, particularly after events such as coral bleaching which kill corals and allow fast-growing turf algae and seaweeds to take over. At larger spatial scales – across the Great Barrier Reef, or among Pacific atolls –the biomass of cropping and scraping species can vary greatly, which has been linked to effects of fishing and habitat quality on fish populations.&lt;/p&gt;
-
-
-
-
-&lt;figure&gt;
-
-&lt;img src=&#34;image1.jpg&#34; /&gt;
-
-
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;School of Singapore parrotfish (Scarus prasiognathos) grazing on an Indo-Pacific reef (credit: Tane Sinclair-Taylor)&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
-&lt;p&gt;Analyses which tie these two approaches together – small-scale feeding rates with large-scale fish biomass estimates – can be used to measure cropping and scraping rates for entire coral reef ecosystems, and so identify influences of fishing and habitat on grazing functions. &lt;a href=&#34;https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2435.13457&#34; target=&#34;_blank&#34;&gt;In our paper&lt;/a&gt;, we generated estimates of grazing functions – cropping and scraping - at 72 coral reefs across the Indo-Pacific, combining underwater feeding observations with fish biomass data from Seychelles, Maldives, the Chagos archipelago, and the Great Barrier Reef. We found that cropping rates depended on reef habitat complexity and the amount of available space on the reef floor, whereas scraping rates were most strongly affected by fishing pressure. These patterns allow us to infer that cropping function will increase in response to loss of corals, and show that scraping function on most reefs is now far below levels observed on unfished, wilderness reefs.&lt;/p&gt;
 </description>
     </item>
     
