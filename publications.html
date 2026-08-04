@@ -13,7 +13,7 @@
     <img src="img/portrait.jpg" alt="James Robinson">
     <div>
       <h1>James Robinson</h1>
-      <p class="role">Marine ecologist, Reader @ Lancaster Environment Centre, Lancaster University, UK</p>
+      <p class="role">Marine ecologist <span class="placeholder">[current title/institution — edit me]</span>, Edinburgh, UK</p>
     </div>
   </div>
 
@@ -23,69 +23,222 @@
     <a href="index.html#posts">Posts</a>
   </nav>
 
+  <!--
+    Each .pub can carry:
+      data-doi="10.xxxx/xxxxx"   -> enables the Altmetric check (badge only shows if score > 100)
+      data-pdf="pdf/slug.pdf"    -> local PDFs live in /pdf; use a full https:// URL for externally hosted PDFs
+    Both are optional per entry. 10 pre-2022/2023 papers below are wired to the PDFs moved into /pdf.
+    The 2025 dried-fish paper points at an external PMC mirror instead. Add the rest as you get PDFs/DOIs
+    for them — leaving an entry unset is safer than a wrong link.
+  -->
+
   <h2 class="section">2026</h2>
   <div class="pub-list">
     <div class="pub">
       <div class="year">Jan</div>
-      <div><p class="title">Global marine fish trade networks track international pathways of nutrients and contaminants</p><p class="meta">Eco-Environment &amp; Health</p></div>
+      <div>
+        <p class="title">Global marine fish trade networks track international pathways of nutrients and contaminants</p>
+        <p class="meta">Eco-Environment &amp; Health</p>
+        <div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div>
+      </div>
     </div>
     <div class="pub">
       <div class="year">May</div>
-      <div><p class="title">Nutrient content estimation of the world's fishes</p><p class="meta">Preprint</p></div>
+      <div>
+        <p class="title">Nutrient content estimation of the world's fishes</p>
+        <p class="meta">Preprint</p>
+        <div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div>
+      </div>
     </div>
   </div>
 
   <h2 class="section">2025</h2>
   <div class="pub-list">
-    <div class="pub"><div class="year">Jan</div><div><p class="title">Illuminating the multidimensional contributions of small-scale fisheries</p><p class="meta">Nature</p></div></div>
-    <div class="pub"><div class="year">Mar</div><div><p class="title">The nutritional value of invertebrate aquatic foods</p><p class="meta">Preprint</p></div></div>
-    <div class="pub"><div class="year">Jul</div><div><p class="title">The hidden role of market-making in the rise of farmed salmon</p><p class="meta">Environmental Research Letters</p></div></div>
-    <div class="pub"><div class="year">Sep</div><div><p class="title">Dried fish provide widespread access to critical nutrients across Africa</p><p class="meta">Proceedings of the National Academy of Sciences</p></div></div>
-    <div class="pub"><div class="year">Oct</div><div><p class="title">The EAT–Lancet Commission on healthy, sustainable, and just food systems</p><p class="meta">The Lancet</p></div></div>
+    <div class="pub">
+      <div class="year">Jan</div>
+      <div>
+        <p class="title">Illuminating the multidimensional contributions of small-scale fisheries</p>
+        <p class="meta">Nature</p>
+        <div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div>
+      </div>
+    </div>
+    <div class="pub">
+      <div class="year">Mar</div>
+      <div>
+        <p class="title">The nutritional value of invertebrate aquatic foods</p>
+        <p class="meta">Preprint</p>
+        <div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div>
+      </div>
+    </div>
+    <div class="pub">
+      <div class="year">Jul</div>
+      <div>
+        <p class="title">The hidden role of market-making in the rise of farmed salmon</p>
+        <p class="meta">Environmental Research Letters</p>
+        <div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div>
+      </div>
+    </div>
+    <div class="pub" data-doi="10.1073/pnas.2426844122" data-pdf="https://pmc.ncbi.nlm.nih.gov/articles/PMC12501148/pdf/pnas.202426844.pdf">
+      <div class="year">Sep</div>
+      <div>
+        <p class="title">Dried fish provide widespread access to critical nutrients across Africa</p>
+        <p class="meta">Proceedings of the National Academy of Sciences</p>
+        <div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div>
+      </div>
+    </div>
+    <div class="pub">
+      <div class="year">Oct</div>
+      <div>
+        <p class="title">The EAT–Lancet Commission on healthy, sustainable, and just food systems</p>
+        <p class="meta">The Lancet</p>
+        <div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div>
+      </div>
+    </div>
   </div>
 
   <h2 class="section">2024</h2>
   <div class="pub-list">
-    <div class="pub"><div class="year">Mar</div><div><p class="title">Wild fish consumption can balance nutrient retention in farmed fish</p><p class="meta">Nature Food</p></div></div>
-    <div class="pub"><div class="year">May</div><div><p class="title">Drivers of nutrient intakes from fisheries in French Polynesia</p><p class="meta">Ecosystems and People</p></div></div>
-    <div class="pub"><div class="year">Jul</div><div><p class="title">Global patterns and drivers of fish reproductive potential on coral reefs</p><p class="meta">Nature Communications</p></div></div>
-    <div class="pub"><div class="year">Sep</div><div><p class="title">Managing nutrition-biodiversity trade-offs on coral reefs</p><p class="meta">Current Biology</p></div></div>
-    <div class="pub"><div class="year">Nov</div><div><p class="title">Climate change affects multiple coral reef fisheries ecosystem services</p><p class="meta">Fisheries Management and Ecology</p></div></div>
-    <div class="pub"><div class="year">Dec</div><div><p class="title">Increased resilience and a regime shift reversal through repeat mass coral bleaching</p><p class="meta">Ecology Letters</p></div></div>
+    <div class="pub">
+      <div class="year">Mar</div>
+      <div>
+        <p class="title">Wild fish consumption can balance nutrient retention in farmed fish</p>
+        <p class="meta">Nature Food</p>
+        <div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div>
+      </div>
+    </div>
+    <div class="pub">
+      <div class="year">May</div>
+      <div>
+        <p class="title">Drivers of nutrient intakes from fisheries in French Polynesia</p>
+        <p class="meta">Ecosystems and People</p>
+        <div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div>
+      </div>
+    </div>
+    <div class="pub">
+      <div class="year">Jul</div>
+      <div>
+        <p class="title">Global patterns and drivers of fish reproductive potential on coral reefs</p>
+        <p class="meta">Nature Communications</p>
+        <div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div>
+      </div>
+    </div>
+    <div class="pub">
+      <div class="year">Sep</div>
+      <div>
+        <p class="title">Managing nutrition-biodiversity trade-offs on coral reefs</p>
+        <p class="meta">Current Biology</p>
+        <div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div>
+      </div>
+    </div>
+    <div class="pub">
+      <div class="year">Nov</div>
+      <div>
+        <p class="title">Climate change affects multiple coral reef fisheries ecosystem services</p>
+        <p class="meta">Fisheries Management and Ecology</p>
+        <div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div>
+      </div>
+    </div>
+    <div class="pub">
+      <div class="year">Dec</div>
+      <div>
+        <p class="title">Increased resilience and a regime shift reversal through repeat mass coral bleaching</p>
+        <p class="meta">Ecology Letters</p>
+        <div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div>
+      </div>
+    </div>
   </div>
 
   <h2 class="section">2023</h2>
   <div class="pub-list">
-    <div class="pub"><div class="year">Apr</div><div><p class="title">Contributions of small-scale fisheries to food security and nutrition</p><p class="meta">Illuminating Hidden Harvests report, chapter 7</p></div></div>
-    <div class="pub"><div class="year">Oct</div><div><p class="title">Climate change exacerbates nutrient disparities from seafood</p><p class="meta">Nature Climate Change</p></div></div>
-    <div class="pub"><div class="year">Oct</div><div><p class="title">Trophic distribution of nutrient production in coral reef fisheries</p><p class="meta">Proceedings of the Royal Society B</p></div></div>
-    <div class="pub"><div class="year">Dec</div><div><p class="title">Quantifying energy and nutrient fluxes in coral reef food webs</p><p class="meta">Trends in Ecology &amp; Evolution</p></div></div>
+    <div class="pub">
+      <div class="year">Apr</div>
+      <div>
+        <p class="title">Contributions of small-scale fisheries to food security and nutrition</p>
+        <p class="meta">Illuminating Hidden Harvests report, chapter 7</p>
+        <div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div>
+      </div>
+    </div>
+    <div class="pub" data-pdf="pdf/cheung2023-nc.pdf">
+      <div class="year">Oct</div>
+      <div>
+        <p class="title">Climate change exacerbates nutrient disparities from seafood</p>
+        <p class="meta">Nature Climate Change</p>
+        <div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div>
+      </div>
+    </div>
+    <div class="pub" data-pdf="pdf/robinson2023-pb.pdf">
+      <div class="year">Oct</div>
+      <div>
+        <p class="title">Trophic distribution of nutrient production in coral reef fisheries</p>
+        <p class="meta">Proceedings of the Royal Society B</p>
+        <div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div>
+      </div>
+    </div>
+    <div class="pub">
+      <div class="year">Dec</div>
+      <div>
+        <p class="title">Quantifying energy and nutrient fluxes in coral reef food webs</p>
+        <p class="meta">Trends in Ecology &amp; Evolution</p>
+        <div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div>
+      </div>
+    </div>
   </div>
 
   <h2 class="section">2022</h2>
   <div class="pub-list">
-    <div class="pub"><div class="year">Feb</div><div><p class="title">Managing fisheries for maximum nutrient yield</p><p class="meta">Fish and Fisheries</p></div></div>
-    <div class="pub"><div class="year">Mar</div><div><p class="title">Maximising sustainable nutrient production from coupled fisheries-aquaculture systems</p><p class="meta">PLOS Sustainability and Transformation</p></div></div>
-    <div class="pub"><div class="year">Mar</div><div><p class="title">The contribution of macroalgae-associated fishes to small-scale tropical reef fisheries</p><p class="meta">Fish and Fisheries</p></div></div>
-    <div class="pub"><div class="year">Apr</div><div><p class="title">The role of coral reef small-scale fisheries for addressing malnutrition and avoiding biodiversity loss</p><p class="meta">Journal article</p></div></div>
-    <div class="pub"><div class="year">Aug</div><div><p class="title">Reef fishes weaken dietary preferences after coral mortality, altering resource overlap</p><p class="meta">Journal of Animal Ecology</p></div></div>
-    <div class="pub"><div class="year">Aug</div><div><p class="title">Climate impacts alter fisheries productivity and turnover on coral reefs</p><p class="meta">Coral Reefs</p></div></div>
-    <div class="pub"><div class="year">Sep</div><div><p class="title">Small pelagic fish supply abundant and affordable micronutrients to low- and middle-income countries</p><p class="meta">Nature Food</p></div></div>
-    <div class="pub"><div class="year">Oct</div><div><p class="title">Safeguarding nutrients from coral reefs under climate change</p><p class="meta">Nature Ecology &amp; Evolution</p></div></div>
-    <div class="pub"><div class="year">Dec</div><div><p class="title">Navigating sustainability and health trade-offs in global seafood systems</p><p class="meta">Environmental Research Letters</p></div></div>
-    <div class="pub"><div class="year">Jan</div><div><p class="title">Climate-induced increases in micronutrient availability for coral reef fisheries</p><p class="meta">One Earth</p></div></div>
+    <div class="pub" data-pdf="pdf/robinson2022-ff.pdf">
+      <div class="year">Feb</div>
+      <div><p class="title">Managing fisheries for maximum nutrient yield</p><p class="meta">Fish and Fisheries</p><div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div></div>
+    </div>
+    <div class="pub" data-pdf="pdf/willer2022-ps.pdf">
+      <div class="year">Mar</div>
+      <div><p class="title">Maximising sustainable nutrient production from coupled fisheries-aquaculture systems</p><p class="meta">PLOS Sustainability and Transformation</p><div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div></div>
+    </div>
+    <div class="pub">
+      <div class="year">Mar</div>
+      <div><p class="title">The contribution of macroalgae-associated fishes to small-scale tropical reef fisheries</p><p class="meta">Fish and Fisheries</p><div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div></div>
+    </div>
+    <div class="pub">
+      <div class="year">Apr</div>
+      <div><p class="title">The role of coral reef small-scale fisheries for addressing malnutrition and avoiding biodiversity loss</p><p class="meta">Journal article</p><div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div></div>
+    </div>
+    <div class="pub">
+      <div class="year">Aug</div>
+      <div><p class="title">Reef fishes weaken dietary preferences after coral mortality, altering resource overlap</p><p class="meta">Journal of Animal Ecology</p><div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div></div>
+    </div>
+    <div class="pub">
+      <div class="year">Aug</div>
+      <div><p class="title">Climate impacts alter fisheries productivity and turnover on coral reefs</p><p class="meta">Coral Reefs</p><div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div></div>
+    </div>
+    <div class="pub" data-pdf="pdf/robinson2022-nf.pdf">
+      <div class="year">Sep</div>
+      <div><p class="title">Small pelagic fish supply abundant and affordable micronutrients to low- and middle-income countries</p><p class="meta">Nature Food</p><div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div></div>
+    </div>
+    <div class="pub" data-pdf="pdf/mellin2022-ne.pdf">
+      <div class="year">Oct</div>
+      <div><p class="title">Safeguarding nutrients from coral reefs under climate change</p><p class="meta">Nature Ecology &amp; Evolution</p><div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div></div>
+    </div>
+    <div class="pub" data-pdf="pdf/robinson2022-erl.pdf">
+      <div class="year">Dec</div>
+      <div><p class="title">Navigating sustainability and health trade-offs in global seafood systems</p><p class="meta">Environmental Research Letters</p><div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div></div>
+    </div>
+    <div class="pub" data-pdf="pdf/robinson2022-oe.pdf">
+      <div class="year">Jan</div>
+      <div><p class="title">Climate-induced increases in micronutrient availability for coral reef fisheries</p><p class="meta">One Earth</p><div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div></div>
+    </div>
   </div>
 
   <h2 class="section">2019–2021</h2>
   <div class="pub-list">
-    <div class="pub"><div class="year">2021</div><div><p class="title">Secure local aquatic food systems in the face of declining coral reefs</p><p class="meta">One Earth</p></div></div>
-    <div class="pub"><div class="year">2021</div><div><p class="title">Micronutrient supply from global marine fisheries under climate change and overfishing</p><p class="meta">Current Biology</p></div></div>
-    <div class="pub"><div class="year">2021</div><div><p class="title">Fishers perceptions of ecosystem service change associated with climate-disturbed coral reefs</p><p class="meta">People and Nature</p></div></div>
-    <div class="pub"><div class="year">2020</div><div><p class="title">Changing role of coral reef marine reserves in a warming climate</p><p class="meta">Nature Communications</p></div></div>
-    <div class="pub"><div class="year">2020</div><div><p class="title">Diversification insulates fisher catch and revenue in heavily exploited tropical fisheries</p><p class="meta">Science Advances</p></div></div>
-    <div class="pub"><div class="year">2019</div><div><p class="title">Productive instability of coral reef fisheries after climate-driven regime shifts</p><p class="meta">Nature Ecology &amp; Evolution</p></div></div>
-    <div class="pub"><div class="year">2019</div><div><p class="title">Habitat and fishing control grazing potential on coral reefs</p><p class="meta">Functional Ecology</p></div></div>
-    <div class="pub"><div class="year">2019</div><div><p class="title">Thermal stress induces persistently altered coral reef fish assemblages</p><p class="meta">Global Change Biology</p></div></div>
+    <div class="pub" data-pdf="pdf/hicks2021-oe.pdf"><div class="year">2021</div><div><p class="title">Secure local aquatic food systems in the face of declining coral reefs</p><p class="meta">One Earth</p><div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div></div></div>
+    <div class="pub" data-pdf="pdf/maire2021-cb.pdf"><div class="year">2021</div><div><p class="title">Micronutrient supply from global marine fisheries under climate change and overfishing</p><p class="meta">Current Biology</p><div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div></div></div>
+    <div class="pub"><div class="year">2021</div><div><p class="title">Fishers perceptions of ecosystem service change associated with climate-disturbed coral reefs</p><p class="meta">People and Nature</p><div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div></div></div>
+    <div class="pub" data-pdf="pdf/franca2020-pt.pdf"><div class="year">2020</div><div><p class="title">Climatic and local stressor interactions threaten tropical forests and coral reefs</p><p class="meta">Philosophical Transactions B</p><div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div></div></div>
+    <div class="pub"><div class="year">2020</div><div><p class="title">Changing role of coral reef marine reserves in a warming climate</p><p class="meta">Nature Communications</p><div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div></div></div>
+    <div class="pub"><div class="year">2020</div><div><p class="title">Diversification insulates fisher catch and revenue in heavily exploited tropical fisheries</p><p class="meta">Science Advances</p><div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div></div></div>
+    <div class="pub"><div class="year">2019</div><div><p class="title">Productive instability of coral reef fisheries after climate-driven regime shifts</p><p class="meta">Nature Ecology &amp; Evolution</p><div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div></div></div>
+    <div class="pub"><div class="year">2019</div><div><p class="title">Habitat and fishing control grazing potential on coral reefs</p><p class="meta">Functional Ecology</p><div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div></div></div>
+    <div class="pub"><div class="year">2019</div><div><p class="title">Thermal stress induces persistently altered coral reef fish assemblages</p><p class="meta">Global Change Biology</p><div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div></div></div>
   </div>
 
   <p style="font-size:13px; color:var(--text-muted); margin-top:2rem;">Full list (61 publications) on <a href="https://scholar.google.com/citations?user=OMNeiYEAAAAJ&hl=en" style="color:var(--accent)">Google Scholar</a>.</p>
@@ -93,5 +246,6 @@
   <footer>&copy; 2026 James Robinson</footer>
 
 </div>
+<script src="pubs.js"></script>
 </body>
 </html>

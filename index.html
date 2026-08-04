@@ -14,7 +14,7 @@
     <img src="img/portrait.jpg" alt="James Robinson">
     <div>
       <h1>James Robinson</h1>
-       <p class="role">Marine ecologist, Reader @ Lancaster Environment Centre, Lancaster University, UK</p>
+      <p class="role">Marine ecologist <span class="placeholder">[current title/institution — edit me]</span>, Edinburgh, UK</p>
       <p class="bio">I study coral reefs, fisheries, and aquatic food systems, using ecological and Bayesian statistical models to understand how climate change and fishing shape fish biomass, nutrient production, and food security in tropical and small-scale fisheries.</p>
       <div class="links">
         <a href="https://scholar.google.com/citations?user=OMNeiYEAAAAJ&hl=en">Google Scholar</a>
@@ -31,6 +31,8 @@
     <a href="#posts">Posts</a>
   </nav>
 
+  <!-- data-doi enables the Altmetric check (badge shows only if score > 100); data-pdf enables the PDF button -->
+
   <h2 class="section">Selected publications</h2>
   <div class="pub-list">
 
@@ -40,15 +42,17 @@
         <p class="title">Global marine fish trade networks track international pathways of nutrients and contaminants</p>
         <p class="meta">Eco-Environment &amp; Health</p>
         <p class="authors">Zhu, Ho, Robinson, et al.</p>
+        <div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div>
       </div>
     </div>
 
-    <div class="pub">
+    <div class="pub" data-doi="10.1073/pnas.2426844122" data-pdf="https://pmc.ncbi.nlm.nih.gov/articles/PMC12501148/pdf/pnas.202426844.pdf">
       <div class="year">2025</div>
       <div>
         <p class="title">Dried fish provide widespread access to critical nutrients across Africa</p>
         <p class="meta">Proceedings of the National Academy of Sciences</p>
         <p class="authors">Robinson, O'Meara, Fiorella, et al.</p>
+        <div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div>
       </div>
     </div>
 
@@ -58,6 +62,7 @@
         <p class="title">The hidden role of market-making in the rise of farmed salmon</p>
         <p class="meta">Environmental Research Letters</p>
         <p class="authors">Robinson, Fernandes</p>
+        <div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div>
       </div>
     </div>
 
@@ -67,6 +72,7 @@
         <p class="title">Illuminating the multidimensional contributions of small-scale fisheries</p>
         <p class="meta">Nature</p>
         <p class="authors">Basurto, Gutierrez, Franz, ... Robinson, et al.</p>
+        <div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div>
       </div>
     </div>
 
@@ -76,6 +82,7 @@
         <p class="title">Managing nutrition-biodiversity trade-offs on coral reefs</p>
         <p class="meta">Current Biology</p>
         <p class="authors">Maire, Robinson, McLean, et al.</p>
+        <div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div>
       </div>
     </div>
 
@@ -85,6 +92,7 @@
         <p class="title">Global patterns and drivers of fish reproductive potential on coral reefs</p>
         <p class="meta">Nature Communications</p>
         <p class="authors">Hadj-Hammou, Cinner, Barneche, ... Robinson, et al.</p>
+        <div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div>
       </div>
     </div>
 
@@ -94,6 +102,7 @@
         <p class="title">Wild fish consumption can balance nutrient retention in farmed fish</p>
         <p class="meta">Nature Food</p>
         <p class="authors">Willer, Newton, Malcorps, ... Robinson, et al.</p>
+        <div class="links-row"><a class="pdf-btn" data-pdf-link>PDF</a><span class="badge-holder"></span></div>
       </div>
     </div>
 
@@ -126,5 +135,6 @@
   </footer>
 
 </div>
+<script src="pubs.js"></script>
 </body>
 </html>
