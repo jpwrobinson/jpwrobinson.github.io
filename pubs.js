@@ -11,6 +11,28 @@ function loadAltmetricScript() {
   document.body.appendChild(s);
 }
 
+let jsonpCounter = 0;
+
+function altmetricJsonp(doi, callback) {
+  const cbName = 'altmetricCb' + (jsonpCounter++);
+  const script = document.createElement('script');
+
+  window[cbName] = function (data) {
+    callback(data);
+    delete window[cbName];
+    script.remove();
+  };
+
+  script.onerror = function () {
+    // no Altmetric record for this DOI, or the lookup failed - treat as "no badge"
+    delete window[cbName];
+    script.remove();
+  };
+
+  script.src = 'https://api.altmetric.com/v1/doi/' + encodeURIComponent(doi) + '?callback=' + cbName;
+  document.body.appendChild(script);
+}
+
 document.querySelectorAll('.pub').forEach(function (pub) {
   const pdfUrl = pub.getAttribute('data-pdf');
   const pdfBtn = pub.querySelector('.pdf-btn');
@@ -27,19 +49,16 @@ document.querySelectorAll('.pub').forEach(function (pub) {
   const doi = pub.getAttribute('data-doi');
   const badgeHolder = pub.querySelector('.badge-holder');
   if (doi && badgeHolder) {
-    fetch('https://api.altmetric.com/v1/doi/' + encodeURIComponent(doi))
-      .then(function (r) { return r.ok ? r.json() : null; })
-      .then(function (data) {
-        if (data && data.score > 100) {
-          const badge = document.createElement('a');
-          badge.className = 'altmetric-embed';
-          badge.setAttribute('data-badge-type', 'donut');
-          badge.setAttribute('data-doi', doi);
-          badge.setAttribute('data-badge-popover', 'right');
-          badgeHolder.appendChild(badge);
-          loadAltmetricScript();
-        }
-      })
-      .catch(function () {});
+    altmetricJsonp(doi, function (data) {
+      if (data && data.score && data.score > 100) {
+        const badge = document.createElement('a');
+        badge.className = 'altmetric-embed';
+        badge.setAttribute('data-badge-type', 'donut');
+        badge.setAttribute('data-doi', doi);
+        badge.setAttribute('data-badge-popover', 'right');
+        badgeHolder.appendChild(badge);
+        loadAltmetricScript();
+      }
+    });
   }
 });
