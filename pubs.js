@@ -34,6 +34,21 @@ function altmetricJsonp(doi, callback) {
 }
 
 document.querySelectorAll('.pub').forEach(function (pub) {
+  const thumbUrl = pub.getAttribute('data-thumb');
+  if (thumbUrl) {
+    const img = document.createElement('img');
+    img.className = 'thumb';
+    img.src = thumbUrl;
+    img.alt = '';
+    img.loading = 'lazy';
+    const yearEl = pub.querySelector('.year');
+    if (yearEl) {
+      yearEl.after(img);
+    } else {
+      pub.insertBefore(img, pub.firstChild);
+    }
+  }
+
   const pdfUrl = pub.getAttribute('data-pdf');
   const pdfBtn = pub.querySelector('.pdf-btn');
   if (pdfBtn) {
