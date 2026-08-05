@@ -113,7 +113,7 @@ h2.section:first-of-type { border-top: none; padding-top: 0; margin-top: 0; }
 .pub {
   display: flex;
   gap: 14px;
-  align-items: stretch;
+  align-items: flex-start;
   font-size: 14px;
 }
 
@@ -126,8 +126,8 @@ h2.section:first-of-type { border-top: none; padding-top: 0; margin-top: 0; }
 }
 
 .pub .thumb {
-  width: 52px;
-  align-self: stretch;
+  width: 56px;
+  height: 76px;
   border-radius: 6px;
   object-fit: cover;
   flex-shrink: 0;
