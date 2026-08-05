@@ -208,6 +208,61 @@ h2.section:first-of-type { border-top: none; padding-top: 0; margin-top: 0; }
   min-width: 0;
 }
 
+.app-note {
+  font-size: 12.5px;
+  color: var(--text-muted);
+  margin: 0 0 10px;
+}
+
+.shiny-embed {
+  width: 100%;
+  height: 720px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+/* compact variant — publications.html only */
+.compact-page h2.section {
+  margin: 1.75rem 0 0.75rem;
+  padding-top: 1.25rem;
+}
+
+.pub-list.compact { gap: 10px; }
+
+.pub-list.compact .pub {
+  gap: 12px;
+  font-size: 13.5px;
+}
+
+.pub-list.compact .pub .title {
+  margin: 0;
+  line-height: 1.3;
+}
+
+.pub-list.compact .pub .meta {
+  font-size: 12.5px;
+  margin: 1px 0 0;
+}
+
+.pub-list.compact .pub .first-author {
+  font-size: 12px;
+  margin: 1px 0 0;
+}
+
+.pub-list.compact .pub .links-row {
+  margin-top: 3px;
+  gap: 10px;
+  min-height: 16px;
+}
+
+.pub-list.compact .pub .links-row a {
+  font-size: 12px;
+}
+
+.pub-list.compact .pdf-btn {
+  padding: 1px 6px;
+}
+
 /* posts */
 .post-item { margin-bottom: 16px; }
 .post-item a.post-title {
