@@ -26,6 +26,13 @@ body {
   padding: 3rem 1.5rem 5rem;
 }
 
+/* wider container for the standalone nutrients tool page, so the
+   embedded app has real room instead of being squashed into the
+   700px article column */
+.wrap.wide {
+  max-width: 1200px;
+}
+
 /* header / bio */
 .profile {
   display: flex;
@@ -216,9 +223,18 @@ h2.section:first-of-type { border-top: none; padding-top: 0; margin-top: 0; }
 
 .shiny-embed {
   width: 100%;
-  height: 720px;
+  height: 85vh;
+  min-height: 650px;
+  max-height: 1100px;
   border: 1px solid var(--border);
   border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  .shiny-embed {
+    height: 75vh;
+    min-height: 500px;
+  }
 }
 
 /* compact variant — publications.html only */
