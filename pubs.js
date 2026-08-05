@@ -61,6 +61,18 @@ document.querySelectorAll('.pub').forEach(function (pub) {
     }
   }
 
+  const journalUrl = pub.getAttribute('data-url');
+  const titleEl = pub.querySelector('.title');
+  if (journalUrl && titleEl) {
+    const a = document.createElement('a');
+    a.href = journalUrl;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.textContent = titleEl.textContent;
+    titleEl.textContent = '';
+    titleEl.appendChild(a);
+  }
+
   const doi = pub.getAttribute('data-doi');
   const badgeHolder = pub.querySelector('.badge-holder');
   if (doi && badgeHolder) {

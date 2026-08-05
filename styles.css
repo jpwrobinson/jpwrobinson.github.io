@@ -145,6 +145,23 @@ h2.section:first-of-type { border-top: none; padding-top: 0; margin-top: 0; }
   line-height: 1.4;
 }
 
+.pub .title a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.pub .title a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.pub .first-author {
+  color: var(--text-muted);
+  font-size: 12.5px;
+  margin: 3px 0 0;
+  font-style: italic;
+}
+
 .pub .meta {
   color: var(--text-secondary);
   font-size: 13px;
