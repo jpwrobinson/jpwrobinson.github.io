@@ -1,5 +1,11 @@
 let altmetricScriptLoaded = false;
+let anyBadgeInserted = false;
 
+// Loads Altmetric's official embed script once. The script scans the page
+// for .altmetric-embed elements itself and decides whether to show a badge
+// (via data-hide-less-than / data-hide-no-mentions) - we don't pre-check
+// scores ourselves, since that requires a separate call to Altmetric's
+// rate-limited Details API, which browsers/ad-blockers frequently block.
 function loadAltmetricScript() {
   if (altmetricScriptLoaded) {
     if (window._altmetric_embed_init) window._altmetric_embed_init();
@@ -9,28 +15,6 @@ function loadAltmetricScript() {
   const s = document.createElement('script');
   s.src = 'https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js';
   document.body.appendChild(s);
-}
-
-let jsonpCounter = 0;
-
-function altmetricJsonp(doi, callback) {
-  const cbName = 'altmetricCb' + (jsonpCounter++);
-  const script = document.createElement('script');
-
-  window[cbName] = function (data) {
-    callback(data);
-    delete window[cbName];
-    script.remove();
-  };
-
-  script.onerror = function () {
-    // no Altmetric record for this DOI, or the lookup failed - treat as "no badge"
-    delete window[cbName];
-    script.remove();
-  };
-
-  script.src = 'https://api.altmetric.com/v1/doi/' + encodeURIComponent(doi) + '?callback=' + cbName;
-  document.body.appendChild(script);
 }
 
 document.querySelectorAll('.pub').forEach(function (pub) {
@@ -51,11 +35,14 @@ document.querySelectorAll('.pub').forEach(function (pub) {
 
   const pdfUrl = pub.getAttribute('data-pdf');
   const pdfBtn = pub.querySelector('.pdf-btn');
+  const linksRow = pub.querySelector('.links-row');
+  let hasPdf = false;
   if (pdfBtn) {
     if (pdfUrl) {
       pdfBtn.href = pdfUrl;
       pdfBtn.target = '_blank';
       pdfBtn.rel = 'noopener';
+      hasPdf = true;
     } else {
       pdfBtn.remove();
     }
@@ -76,16 +63,32 @@ document.querySelectorAll('.pub').forEach(function (pub) {
   const doi = pub.getAttribute('data-doi');
   const badgeHolder = pub.querySelector('.badge-holder');
   if (doi && badgeHolder) {
-    altmetricJsonp(doi, function (data) {
-      if (data && data.score && data.score > 100) {
-        const badge = document.createElement('a');
-        badge.className = 'altmetric-embed';
-        badge.setAttribute('data-badge-type', 'donut');
-        badge.setAttribute('data-doi', doi);
-        badge.setAttribute('data-badge-popover', 'right');
-        badgeHolder.appendChild(badge);
-        loadAltmetricScript();
-      }
-    });
+    const badge = document.createElement('div');
+    badge.className = 'altmetric-embed';
+    badge.setAttribute('data-badge-type', 'donut');
+    badge.setAttribute('data-doi', doi);
+    badge.setAttribute('data-badge-popover', 'right');
+    // only show a badge for papers with real attention - matches the
+    // previous >100 threshold, but Altmetric's own script now enforces it
+    badge.setAttribute('data-hide-less-than', '100');
+    badgeHolder.appendChild(badge);
+    anyBadgeInserted = true;
+
+    if (!hasPdf && linksRow) {
+      // hide the row until we know whether the badge actually renders,
+      // so a paper with neither a pdf nor a qualifying score doesn't
+      // leave blank reserved space
+      linksRow.style.display = 'none';
+      badge.addEventListener('altmetric:show', function () {
+        linksRow.style.display = '';
+      });
+    }
+  } else if (!hasPdf && linksRow) {
+    // no pdf and no doi to even check for a badge - collapse immediately
+    linksRow.style.display = 'none';
   }
 });
+
+if (anyBadgeInserted) {
+  loadAltmetricScript();
+}
