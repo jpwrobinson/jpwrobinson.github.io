@@ -229,14 +229,14 @@ h2.section:first-of-type { border-top: none; padding-top: 0; margin-top: 0; }
   min-height: 20px;
 }
 
-.pdf-btn {
+.pdf-btn, .code-btn {
   border: 1px solid var(--border);
   border-radius: 4px;
   padding: 2px 8px;
   font-weight: 600;
 }
 
-.pdf-btn:hover { border-color: var(--accent); }
+.pdf-btn:hover, .code-btn:hover { border-color: var(--accent); }
 
 .badge-holder {
   display: inline-flex;
@@ -316,7 +316,8 @@ h2.section:first-of-type { border-top: none; padding-top: 0; margin-top: 0; }
   font-size: 12px;
 }
 
-.pub-list.compact .pdf-btn {
+.pub-list.compact .pdf-btn,
+.pub-list.compact .code-btn {
   padding: 1px 6px;
 }
 

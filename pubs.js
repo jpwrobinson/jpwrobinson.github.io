@@ -48,6 +48,20 @@ document.querySelectorAll('.pub').forEach(function (pub) {
     }
   }
 
+  const codeUrl = pub.getAttribute('data-code');
+  const codeBtn = pub.querySelector('.code-btn');
+  let hasCode = false;
+  if (codeBtn) {
+    if (codeUrl) {
+      codeBtn.href = codeUrl;
+      codeBtn.target = '_blank';
+      codeBtn.rel = 'noopener';
+      hasCode = true;
+    } else {
+      codeBtn.remove();
+    }
+  }
+
   const journalUrl = pub.getAttribute('data-url');
   const titleEl = pub.querySelector('.title');
   if (journalUrl && titleEl) {
@@ -74,17 +88,17 @@ document.querySelectorAll('.pub').forEach(function (pub) {
     badgeHolder.appendChild(badge);
     anyBadgeInserted = true;
 
-    if (!hasPdf && linksRow) {
+    if (!hasPdf && !hasCode && linksRow) {
       // hide the row until we know whether the badge actually renders,
-      // so a paper with neither a pdf nor a qualifying score doesn't
-      // leave blank reserved space
+      // so a paper with neither a pdf/code link nor a qualifying score
+      // doesn't leave blank reserved space
       linksRow.style.display = 'none';
       badge.addEventListener('altmetric:show', function () {
         linksRow.style.display = '';
       });
     }
-  } else if (!hasPdf && linksRow) {
-    // no pdf and no doi to even check for a badge - collapse immediately
+  } else if (!hasPdf && !hasCode && linksRow) {
+    // no pdf, no code link, and no doi to even check for a badge - collapse immediately
     linksRow.style.display = 'none';
   }
 });
