@@ -366,3 +366,88 @@ a.more-link:hover { text-decoration: underline; }
   padding: 2px 6px;
   border-radius: 4px;
 }
+
+/* team page */
+.team-list { display: flex; flex-direction: column; gap: 28px; }
+
+.member {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+
+.member-img-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  width: 80px;
+}
+
+/* circle crop. Tune per person with style="--zoom:1.6; --pos:50% 25%" on the <img>:
+   --zoom = how far to zoom in, --pos = the point to centre on (x% y%, 0% 0% = top-left) */
+.member-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #eee;
+}
+
+.member-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: var(--pos, 50% 30%);
+  transform: scale(var(--zoom, 1.4));
+  transform-origin: var(--pos, 50% 30%);
+}
+
+.member-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 9px;
+}
+
+.member-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+.member-icons a:hover { color: var(--accent); }
+
+.member-icons svg { width: 15px; height: 15px; }
+
+.member-icons .rg {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 15px;
+}
+
+.member-text { flex: 1; min-width: 0; }
+
+.member .name {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.member .role {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin: 2px 0 8px;
+}
+
+.member .bio {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+}
